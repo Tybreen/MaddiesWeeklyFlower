@@ -4,10 +4,9 @@ Name: Maddie's Weekly Flower
 Maddie's favorite flower: Chrysanthemum
 
 Date created: 10/18/22
-Finished: 2/13/23
 Given to Maddie: ?????
 
-Last Updated: 2/13/23
+Last Updated to GitHub: 2/13/23
 
 */
 
@@ -16,17 +15,24 @@ Last Updated: 2/13/23
 var image1;
 var image2;
 
+var currentImage = 0;
+
 var Now = new Date();
 
+var DarkMode = false;
+
+var toggleText = false;
+
 /* Notes:
-/ The month is 0-indexed: AKA: month - 1 /
+/ The month is 0-indexed: AKA: month -1 /
 / Year, Month, Day, Hour, Minute, Seconds /
 */
-var transitionDay = new Date(2023, 1, 13, 20, 35, 0);
+var transitionDay = new Date(2023, 1, 19, 0, 0, 0);
 
 // Horizontal : Vertical //
 var photoStyle1 = "Vertical";
 var photoStyle2 = "Horizontal";
+
 
 // DeBug:
 var imageSelect = false;
@@ -49,11 +55,28 @@ function setup()
 
         console.log("Now:                    " + Now.toLocaleString());
         console.log("Transition Day:   " + transitionDay.toLocaleString());
+        console.log("Drawed Image " + currentImage);
+
         
-        background(255);
+        displayBackground();
         displayImage();
 
+        if(toggleText)
+        {
+        textAlign(RIGHT);
+        textSize(height / 40);
+
+        if(DarkMode) fill(255);
+        else fill(0);
+
+        text("To Maddie", width - 10, height - (height / 12));
+        text("Who is more Beautiful then these Flowers", width - 10, height - (height / 20));
+        text("From Tyler", width - 10, height - (height / 60));
+        }
+
     }, 1000);
+
+    
 
 }
 
@@ -62,11 +85,11 @@ var i = 0;
 function draw()
 {
 
-    if(i < 60)
+    if(i < 5)
     {
         i = frameCount;
 
-        background(255);
+        displayBackground();
         displayImage();
         
     }
@@ -74,6 +97,25 @@ function draw()
     //console.log("Playing");
     //console.log("frameCount:" + i);
     
+}
+
+function mousePressed()
+{
+    toggleText = true;
+    setTimeout(() => { toggleText = false }, 6000);
+}
+
+function displayBackground()
+{
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        background(0);
+        DarkMode = true;
+    }
+    else 
+    {
+        background(255);
+        DarkMode = false;
+    }
 }
 
 function displayImage()
@@ -87,7 +129,7 @@ function displayImage()
         if(photoStyle1 == "Horizontal") image1.resize(width, 0);
         else if(photoStyle1 == "Vertical") image1.resize(0, height);
 
-        console.log("Drawed Image 1");
+        currentImage = 1;
     }
     
     else if(transitionDay.getTime() < Date.now() || imageSelect == 2)
@@ -97,7 +139,7 @@ function displayImage()
         if(photoStyle2 == "Horizontal") image2.resize(width, 0);
         else if(photoStyle2 == "Vertical") image2.resize(0, height);
 
-        console.log("Drawed Image 2");
+        currentImage = 2;
     }
     
 }
