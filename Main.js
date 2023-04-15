@@ -41,8 +41,8 @@ function preload()
 {
 
  
-    image1 = loadImage("https://www.bhg.com/thmb/RBW5qfphn9cSLI6F2RnKMXujrLM=/1245x0/filters:no_upscale():strip_icc()/orange-chrysanthemum-blooms-975f5364-8694698b1665459b8251a674ad796e7c.jpg");    
-    image2 = loadImage("https://images.immediate.co.uk/production/volatile/sites/10/2018/02/09f5f488-d6d9-4312-9477-bb22068925ca-bdd9baa.jpg");
+    image1 = loadImage("Flowers/Week 1.jpg");    
+    image2 = loadImage("Flowers/Week 2.png");
 
 }
 
@@ -144,14 +144,3 @@ function displayImage()
     }
     
 }
-
-
-
-
-/*  Flowers:
-
-Week 1 - https://www.bhg.com/thmb/RBW5qfphn9cSLI6F2RnKMXujrLM=/1245x0/filters:no_upscale():strip_icc()/orange-chrysanthemum-blooms-975f5364-8694698b1665459b8251a674ad796e7c.jpg
-Week 2 - 
-Week 3 - https://boydsflowerconnection.flowermanager.net/wp-content/uploads/sites/12/2013/11/Beautiful-Chrysanthemums.jpg
-
-*/
