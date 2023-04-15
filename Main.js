@@ -40,7 +40,6 @@ var imageSelect = false; // Default: false
 function preload()
 {
 
- 
     image1 = loadImage("Flowers/Week 1.jpg");    
     image2 = loadImage("Flowers/Week 2.png");
 
