@@ -27,7 +27,7 @@ var toggleText = false;
 / The month is 0-indexed: AKA: month -1 /
 / Year, Month, Day, Hour, Minute, Seconds /
 */
-var transitionDay = new Date(2023, 1, 19, 0, 0, 0);
+var transitionDay = new Date(2023, 3, 30, 0, 0, 0);
 
 // Horizontal : Vertical //
 var photoStyle1 = "Vertical";
@@ -35,13 +35,14 @@ var photoStyle2 = "Horizontal";
 
 
 // DeBug:
-var imageSelect = false;
+var imageSelect = false; // Default: false
 
 function preload()
 {
 
-    image1 = loadImage("Flowers/Chrysanthemum - 11:6-11:12.jpg");
-    image2 = loadImage("Flowers/Chrysanthemum - 11:13-11:19.png");
+ 
+    image1 = loadImage("https://www.bhg.com/thmb/RBW5qfphn9cSLI6F2RnKMXujrLM=/1245x0/filters:no_upscale():strip_icc()/orange-chrysanthemum-blooms-975f5364-8694698b1665459b8251a674ad796e7c.jpg");    
+    image2 = loadImage("https://images.immediate.co.uk/production/volatile/sites/10/2018/02/09f5f488-d6d9-4312-9477-bb22068925ca-bdd9baa.jpg");
 
 }
 
@@ -63,15 +64,15 @@ function setup()
 
         if(toggleText)
         {
-        textAlign(RIGHT);
-        textSize(height / 40);
+            textAlign(RIGHT);
+            textSize(height / 40);
 
-        if(DarkMode) fill(255);
-        else fill(0);
+            if(DarkMode) fill(255);
+            else fill(0);
 
-        text("To Maddie", width - 10, height - (height / 12));
-        text("Who is more Beautiful then these Flowers", width - 10, height - (height / 20));
-        text("From Tyler", width - 10, height - (height / 60));
+            text("To Maddie", width - 10, height - (height / 12));
+            text("Who is more Beautiful then these Flowers", width - 10, height - (height / 20));
+            text("Love, Tyler", width - 10, height - (height / 60));
         }
 
     }, 1000);
@@ -122,7 +123,7 @@ function displayImage()
 {
     imageMode(CENTER);
     
-    if(transitionDay.getTime() > Date.now() || imageSelect == 1)
+    if( imageSelect == 1 || (imageSelect == false && transitionDay.getTime() > Date.now()) )
     {
         image(image1, width / 2, height / 2, 0, 0);
 
@@ -132,7 +133,7 @@ function displayImage()
         currentImage = 1;
     }
     
-    else if(transitionDay.getTime() < Date.now() || imageSelect == 2)
+    else if( imageSelect == 2 || (imageSelect == false && transitionDay.getTime() > Date.now()) )
     {
         image(image2, width / 2, height / 2, 0, 0);
 
@@ -143,3 +144,14 @@ function displayImage()
     }
     
 }
+
+
+
+
+/*  Flowers:
+
+Week 1 - https://www.bhg.com/thmb/RBW5qfphn9cSLI6F2RnKMXujrLM=/1245x0/filters:no_upscale():strip_icc()/orange-chrysanthemum-blooms-975f5364-8694698b1665459b8251a674ad796e7c.jpg
+Week 2 - 
+Week 3 - https://boydsflowerconnection.flowermanager.net/wp-content/uploads/sites/12/2013/11/Beautiful-Chrysanthemums.jpg
+
+*/
