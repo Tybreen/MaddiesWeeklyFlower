@@ -5,10 +5,8 @@ Maddie's favorite flower: Chrysanthemum
 
 Date created: 10/18/22
 Given to Maddie: 4/21/23
-
-Last Updated to GitHub: 4/17/23
-
 */
+var lastPublishedToGitHub = "Last Published to GitHub: 4/27/23";
 
 // Vars:
 
@@ -56,6 +54,8 @@ function preload()
 function setup() 
 {
     createCanvas(windowWidth, windowHeight);
+
+    console.log(lastPublishedToGitHub);
 
     setInterval(function() 
     { 
