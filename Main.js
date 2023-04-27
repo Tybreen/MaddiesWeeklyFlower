@@ -4,7 +4,7 @@ Name: Maddie's Weekly Flower
 Maddie's favorite flower: Chrysanthemum
 
 Date created: 10/18/22
-Given to Maddie: ?????
+Given to Maddie: 4/21/23
 
 Last Updated to GitHub: 4/17/23
 
@@ -32,6 +32,8 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 var transitionDay = new Date(2023, 3, 30, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 4, 7, 0, 0, 0);
+
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 // Horizontal : Vertical //
@@ -108,10 +110,11 @@ function displayText()
 {
 
     howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
-
     howLongWeHaveBeenDating[1] += 1;
 
-    howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
+    if(transitionDay.getTime() > Date.now()) howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
+
+    else howLongTilNextPic = dateDifference(Date.now(), nextTransitionDay.getTime());
 
     displayBackground();
 
@@ -159,7 +162,7 @@ function displayImage()
         currentImage = 1;
     }
     
-    else if( imageSelect == 2 || (imageSelect == false && transitionDay.getTime() > Date.now()) )
+    else if( imageSelect == 2 || (imageSelect == false && transitionDay.getTime() < Date.now()) )
     {
         image(image2, width / 2, height / 2, 0, 0);
 
