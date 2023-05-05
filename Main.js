@@ -6,7 +6,8 @@ Maddie's favorite flower: Chrysanthemum
 Date created: 10/18/22
 Given to Maddie: 4/21/23
 */
-var lastPublishedToGitHub = "Last Published to GitHub: 4/27/23";
+/*Here*/
+var lastPublishedToGitHub = "Last Published to GitHub: 5/4/23";
 
 // Vars:
 
@@ -29,13 +30,16 @@ var i = 0;
 / The month is 0-indexed: AKA: month -1 /
 / Year, Month, Day, Hour, Minute, Seconds /
 */
-var transitionDay = new Date(2023, 3, 30, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 4, 7, 0, 0, 0);
+/*Here*/
+var transitionDay = new Date(2023, 4, 7, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 4, 14, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
+
 // Horizontal : Vertical //
-var photoStyle1 = "Vertical";
+/*Here*/
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 
@@ -45,9 +49,9 @@ var imageSelect = false; // Default: false
 function preload()
 {
 
- 
-    image1 = loadImage("Flowers/Week 1.jpg");    
-    image2 = loadImage("Flowers/Week 2.png");
+    /*Here*/ 
+    image1 = loadImage("Flowers/Week 2.png");    
+    image2 = loadImage("Flowers/Week 3.jpg");
 
 }
 
@@ -131,7 +135,7 @@ function displayText()
     text(`Until Next Picture:\n${howLongTilNextPic[2]} Days\n${howLongTilNextPic[3]} Hours\n${howLongTilNextPic[4]} Minutes\n${howLongTilNextPic[5]} Seconds\n`, width - 10, height / 30);
     
     text("To Maddie", width - 10, height - (height / 12));
-    text("Who is more Beautiful then these Flowers", width - 10, height - (height / 20));
+    /*Here*/ text("Who is the Thing I can't stop thinking about", width - 10, height - (height / 20));
     text("Love, Tyler", width - 10, height - (height / 60));
 }
 
@@ -218,3 +222,8 @@ function dateDifference(start, end) {
     return [years, months, days, hours, minutes, seconds];
   }
   
+  /*Here*/
+  /*
+        "Who is more Beautiful then these Flowers"
+        "Who is the Thing I can't stop thinking about"
+  */
