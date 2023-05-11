@@ -7,7 +7,7 @@ Date created: 10/18/22
 Given to Maddie: 4/21/23
 */
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 5/4/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 5/10/23";
 
 // Vars:
 
@@ -31,16 +31,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 4, 7, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 4, 14, 0, 0, 0);
+var transitionDay = new Date(2023, 4, 14, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 4, 21, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
+/*Here*/
+var quote = "Roses are Red, Violets are Blue, and You're gorgeous too";
 
 // Horizontal : Vertical //
 /*Here*/
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 
 // DeBug:
@@ -50,8 +52,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 2.png");    
-    image2 = loadImage("Flowers/Week 3.jpg");
+    image1 = loadImage("Flowers/Week 3.jpg");
+    image2 = loadImage("Flowers/Week 4.jpg");
 
 }
 
@@ -61,6 +63,8 @@ function setup()
 
     console.log(lastPublishedToGitHub);
 
+    displayBackground();    
+
     setInterval(function() 
     { 
         Now = new Date();
@@ -69,8 +73,6 @@ function setup()
         console.log("Transition Day:   " + transitionDay.toLocaleString());
         console.log("Drawed Image " + currentImage);*/
 
-        
-        displayBackground();
         displayImage();
 
     }, 1000);
@@ -101,7 +103,11 @@ function draw()
 
 function mousePressed()
 {
-    if(!toggleText) toggleText = true;
+    if(!toggleText) 
+    {
+        toggleText = true;
+    }
+
     else 
     {
         toggleText = false;  
@@ -130,12 +136,13 @@ function displayText()
 
     text(`We’ve been dating:\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`, 10, height / 30);
 
+    printSplittedSentences(quote, ((width / 2) * 3) / (height / 40), 10, height - (height / 60), height / 40);
+
     textAlign(RIGHT);
 
     text(`Until Next Picture:\n${howLongTilNextPic[2]} Days\n${howLongTilNextPic[3]} Hours\n${howLongTilNextPic[4]} Minutes\n${howLongTilNextPic[5]} Seconds\n`, width - 10, height / 30);
     
-    text("To Maddie", width - 10, height - (height / 12));
-    /*Here*/ text("Who is the Thing I can't stop thinking about", width - 10, height - (height / 20));
+    text("To Maddie", width - 10, height - (height / 20));
     text("Love, Tyler", width - 10, height - (height / 60));
 }
 
@@ -177,6 +184,62 @@ function displayImage()
     }
     
 }
+
+function printSplittedSentences(str, chr, X, Y, size)
+{
+
+    lst = splitSentence(str, chr);
+
+    textSize(size);
+
+    var counter = 0;
+
+    for(l in lst)
+    {
+        counter++;
+
+        text(lst[lst.length - counter], X, Y - (counter - 1) * (size * 1.25));
+    }
+}
+
+
+// not mine.
+function splitSentence(str, chr)
+{    
+
+    // Split up the string and use `reduce`
+    // to iterate over it
+    const temp = str.split(' ').reduce((acc, c) => {
+
+    // Get the number of nested arrays
+    const currIndex = acc.length - 1;
+
+    // Join up the last array and get its length
+    const currLen = acc[currIndex].join(' ').length;
+
+    // If the length of that content and the new word
+    // in the iteration exceeds 20 chars push the new
+    // word to a new array
+    if (currLen + c.length > chr) {
+        acc.push([c]);
+
+    // otherwise add it to the existing array
+    } else {
+        acc[currIndex].push(c);
+    }
+
+    return acc;
+
+    }, [[]]);
+
+    // Join up all the nested arrays
+    const out = temp.map(arr => arr.join(' '));
+
+    return out;
+}
+
+
+
 
 // not mine.
 function dateDifference(start, end) {
@@ -223,7 +286,11 @@ function dateDifference(start, end) {
   }
   
   /*Here*/
+
   /*
+    Quotes:
+    
         "Who is more Beautiful then these Flowers"
         "Who is the Thing I can't stop thinking about"
+        "Roses are Red, Violets are Blue, and You're gorgeous too"
   */
