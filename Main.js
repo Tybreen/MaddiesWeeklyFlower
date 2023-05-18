@@ -7,7 +7,7 @@ Date created: 10/18/22
 Given to Maddie: 4/21/23
 */
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 5/10/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 5/18/23";
 
 // Vars:
 
@@ -31,20 +31,20 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 4, 14, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 4, 21, 0, 0, 0);
+var transitionDay = new Date(2023, 4, 21, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 4, 28, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "Roses are Red, Violets are Blue, and You're gorgeous too";
+var quote = "When I spell flowers they take my breath away. You also, take MY breath away";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle1 = "Vertical";
+var photoStyle2 = "Horizontal";
 
-
+/*Here*/
 // DeBug:
 var imageSelect = false; // Default: false
 
@@ -52,8 +52,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 3.jpg");
-    image2 = loadImage("Flowers/Week 4.jpg");
+    image1 = loadImage("Flowers/Week 4.jpg");
+    image2 = loadImage("Flowers/Week 5.png");
 
 }
 
@@ -192,13 +192,9 @@ function printSplittedSentences(str, chr, X, Y, size)
 
     textSize(size);
 
-    var counter = 0;
-
-    for(l in lst)
+    for(var i = 1; i <= lst.length; i++)
     {
-        counter++;
-
-        text(lst[lst.length - counter], X, Y - (counter - 1) * (size * 1.25));
+        text(lst[lst.length - i], X, Y - (i - 1) * (size * 1.25));
     }
 }
 
@@ -293,4 +289,5 @@ function dateDifference(start, end) {
         "Who is more Beautiful then these Flowers"
         "Who is the Thing I can't stop thinking about"
         "Roses are Red, Violets are Blue, and You're gorgeous too"
+        "When I spell flowers they take my breath away. You also, take MY breath away"
   */
