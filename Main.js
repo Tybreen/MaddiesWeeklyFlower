@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 5/25/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 6/2/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 4, 28, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 5, 4, 0, 0, 0);
+var transitionDay = new Date(2023, 5, 4, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 5, 11, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "An apple a day, keeps the doctor away.  Maddie a day, keeps my heart beating all day.";
+var quote = "Some say love is like a fire. I think it could be like Nuclear Fission, one little neutron ramming it’s self into a Uranium-235 Isotope creating huge amounts of power... But OUR love is more like Nuclear Fusion, smashing a Deuterium Isotope and a Tritium Isotope together making an indescribable amount of power. And that's how much I love you!";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 5.png");
-    image2 = loadImage("Flowers/Week 6.jpg");
+    image1 = loadImage("Flowers/Week 6.jpg");
+    image2 = loadImage("Flowers/Week 7.jpg");
 
 }
 
@@ -292,4 +292,5 @@ function dateDifference(start, end) {
         "Roses are Red, Violets are Blue, and You're gorgeous too"
         "When I spell flowers they take my breath away. You also, take MY breath away"  <-- SPELL!?! Oops.
         "An apple a day, keeps the doctor away.  Maddie a day, keeps my heart beating all day."
+        "Some say love is like a fire. I think it could be like Nuclear Fission, one little neutron ramming it’s self into a Uranium-235 Isotope creating huge amounts of power... But OUR love is more like Nuclear Fusion, smashing a Deuterium Isotope and a Tritium Isotope together making an indescribable amount of power. And that's how much I love you!"
   */
