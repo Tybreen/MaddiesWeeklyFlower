@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 6/2/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 6/8/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 5, 4, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 5, 11, 0, 0, 0);
+var transitionDay = new Date(2023, 5, 11, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 5, 18, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "Some say love is like a fire. I think it could be like Nuclear Fission, one little neutron ramming it’s self into a Uranium-235 Isotope creating huge amounts of power... But OUR love is more like Nuclear Fusion, smashing a Deuterium Isotope and a Tritium Isotope together making an indescribable amount of power. And that's how much I love you!";
+var quote = "They say love has no bounds, but it does. My love for you has been overflowing for a long time now.  How could my love be overflowing if there isn’t any boundaries?";
 
 // Horizontal : Vertical //
 /*Here*/
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 /*Here*/
 // DeBug:
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 6.jpg");
-    image2 = loadImage("Flowers/Week 7.jpg");
+    image1 = loadImage("Flowers/Week 7.jpg");
+    image2 = loadImage("Flowers/Week 8.jpg");
 
 }
 
