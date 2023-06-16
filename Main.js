@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 6/8/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 6/16/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 5, 11, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 5, 18, 0, 0, 0);
+var transitionDay = new Date(2023, 5, 18, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 5, 25, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "They say love has no bounds, but it does. My love for you has been overflowing for a long time now.  How could my love be overflowing if there isn’t any boundaries?";
+var quote = "Although you’ve graduated you will still say silly things, but I know you are VERY smart. I love the silly things you say and the smart things you say. But of course I love you!!! 🥰";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle1 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 /*Here*/
 // DeBug:
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 7.jpg");
-    image2 = loadImage("Flowers/Week 8.jpg");
+    image1 = loadImage("Flowers/Week 8.jpg");
+    image2 = loadImage("Flowers/Week 9.jpg");
 
 }
 
@@ -293,4 +293,5 @@ function dateDifference(start, end) {
         "When I spell flowers they take my breath away. You also, take MY breath away"  <-- SPELL!?! Oops.
         "An apple a day, keeps the doctor away.  Maddie a day, keeps my heart beating all day."
         "Some say love is like a fire. I think it could be like Nuclear Fission, one little neutron ramming it’s self into a Uranium-235 Isotope creating huge amounts of power... But OUR love is more like Nuclear Fusion, smashing a Deuterium Isotope and a Tritium Isotope together making an indescribable amount of power. And that's how much I love you!"
+        "Although you’ve graduated you will still say silly things, but I know you are VERY smart. I love the silly things you say and the smart things you say. But of course I love you!!! 🥰"
   */
