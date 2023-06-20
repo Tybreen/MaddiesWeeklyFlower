@@ -42,7 +42,7 @@ var quote = "This flower is called The Yellow Jessamine, also known as the Carol
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Vertical";
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 /*Here*/
