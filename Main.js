@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 6/19/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 6/29/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 5, 25, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 6, 2, 0, 0, 0);
+var transitionDay = new Date(2023, 6, 2, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 6, 9, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "This flower is called The Yellow Jessamine, also known as the Carolina Jessamine. It is the South Carolina state flower. Although Michigan has a state flower, it is not my flower... You are my flower. My Beautiful Maddie.";
+var quote = "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day.";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 9.jpg");
-    image2 = loadImage("Flowers/Week 10.jpg.webp");
+    image1 = loadImage("Flowers/Week 10.jpg.webp");
+    image2 = loadImage("Flowers/Week 11.jpg");
 
 }
 
@@ -295,4 +295,6 @@ function dateDifference(start, end) {
         "Some say love is like a fire. I think it could be like Nuclear Fission, one little neutron ramming it’s self into a Uranium-235 Isotope creating huge amounts of power... But OUR love is more like Nuclear Fusion, smashing a Deuterium Isotope and a Tritium Isotope together making an indescribable amount of power. And that's how much I love you!"
         "Although you’ve graduated you will still say silly things, but I know you are VERY smart. I love the silly things you say and the smart things you say. But of course I love you!!! 🥰"
         "This flower is called The Yellow Jessamine, also known as the Carolina Jessamine. It is the South Carolina state flower. Although Michigan has a state flower, it is not my flower... You are my flower. My Beautiful Maddie."
+        "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day."
+        
   */
