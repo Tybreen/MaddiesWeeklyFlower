@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 6/29/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 7/7/23";
 
 // Vars:
 
@@ -32,29 +32,29 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 6, 2, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 6, 9, 0, 0, 0);
+var transitionDay = new Date(2023, 6, 9, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 6, 16, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day.";
+var quote = "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)";
 
 // Horizontal : Vertical //
 /*Here*/
 var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
-/*Here*/
 // DeBug:
+/*Here*/
 var imageSelect = false; // Default: false
 
 function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 10.jpg.webp");
-    image2 = loadImage("Flowers/Week 11.jpg");
+    image1 = loadImage("Flowers/Week 11.jpg");
+    image2 = loadImage("Flowers/Week 12.jpg");
 
 }
 
@@ -296,5 +296,6 @@ function dateDifference(start, end) {
         "Although you’ve graduated you will still say silly things, but I know you are VERY smart. I love the silly things you say and the smart things you say. But of course I love you!!! 🥰"
         "This flower is called The Yellow Jessamine, also known as the Carolina Jessamine. It is the South Carolina state flower. Although Michigan has a state flower, it is not my flower... You are my flower. My Beautiful Maddie."
         "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day."
+        "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)"
         
   */
