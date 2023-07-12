@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 7/7/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 7/12/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 6, 9, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 6, 16, 0, 0, 0);
+var transitionDay = new Date(2023, 6, 16, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 6, 23, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)";
+var quote = "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do.";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 11.jpg");
-    image2 = loadImage("Flowers/Week 12.jpg");
+    image1 = loadImage("Flowers/Week 12.jpg");
+    image2 = loadImage("Flowers/Week 13.jpg");
 
 }
 
@@ -297,5 +297,6 @@ function dateDifference(start, end) {
         "This flower is called The Yellow Jessamine, also known as the Carolina Jessamine. It is the South Carolina state flower. Although Michigan has a state flower, it is not my flower... You are my flower. My Beautiful Maddie."
         "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day."
         "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)"
+        "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do."
         
   */
