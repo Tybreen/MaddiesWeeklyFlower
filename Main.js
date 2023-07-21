@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 7/12/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 7/20/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 6, 16, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 6, 23, 0, 0, 0);
+var transitionDay = new Date(2023, 6, 23, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 6, 30, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do.";
+var quote = "Maddie, I'm so glad can have hard conversations. It shows maturity in us, as individuals and as a couple. It means even when the goings get tough, we can make it though. We all miss up in life, even me, but that doesn’t mean your a bad person. You are the most amazing person in world. (As least to me)  Both of us will make more mistakes, (but NOT certain ones) but even through it all, I will love you, very much!";
 
 // Horizontal : Vertical //
 /*Here*/
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 // DeBug:
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/ 
-    image1 = loadImage("Flowers/Week 12.jpg");
-    image2 = loadImage("Flowers/Week 13.jpg");
+    image1 = loadImage("Flowers/Week 13.jpg");
+    image2 = loadImage("Flowers/Week 14.jpeg");
 
 }
 
@@ -298,5 +298,6 @@ function dateDifference(start, end) {
         "Maddie, I had an absolute blast with you in Myrtle Beach! I had so much fun! I miss seeing your beautiful face at breakfast and throughout the day."
         "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)"
         "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do."
-        
+        "Maddie, I'm so glad can have hard conversations. It shows maturity in us, as individuals and as a couple. It means even when the goings get tough, we can make it though. We all miss up in life, even me, but that doesn’t mean your a bad person. You are the most amazing person in world. (As least to me)  Both of us will make more mistakes, (but NOT certain ones) but even through it all, I will love you, very much!"
+
   */
