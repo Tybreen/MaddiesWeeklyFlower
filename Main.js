@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 7/31/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 8/11/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 7, 6, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 7, 13, 0, 0, 0);
+var transitionDay = new Date(2023, 7, 10, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 7, 20, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "Maddie you are amazing! I can't say it enough. I know you don't believe it sometimes, but you should. Just thinking of you brightens my day. Everything thing about you is incredible! Your Smarts, your Beauty, your Quirks, your Funniness, your Smile, your Laugh, your Personality... Yourself..... I will get into how beautiful you are, and why, next week.";
+var quote = "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -47,14 +47,14 @@ var photoStyle2 = "Vertical";
 
 // DeBug:
 /*Here*/
-var imageSelect = 1; // Default: false
+var imageSelect = false; // Default: false
 
 function preload()
 {
 
-    /*Here*/ 
+    /*Here*/
     image1 = loadImage("Flowers/Week 15.jpg");
-    image2 = loadImage("Flowers/Week 16.jpg");
+    image2 = loadImage("Flowers/Week 16:17.jpg");
 
 }
 
@@ -137,7 +137,7 @@ function displayText()
 
     text(`We’ve been dating:\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`, 10, height / 30);
 
-    printSplittedSentences(quote, ((width / 2) * 3) / (height / 40), 10, height - (height / 60), height / 40);
+    printSplittedSentences(quote, ((width / 2) * 2.9) / (height / 40), 10, height - (height / 60), height / 40);
 
     textAlign(RIGHT);
 
@@ -299,5 +299,7 @@ function dateDifference(start, end) {
         "I miss you... I always do. I wish I could spend all of my time with you. Obviously, that's not realistic. A guy can dream. But only one guy can love you as much as I do.     (Hint: It's me)"
         "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do."
         "Maddie, I'm so glad can have hard conversations. It shows maturity in us, as individuals and as a couple. It means even when the goings get tough, we can make it though. We all miss up in life, even me, but that doesn’t mean your a bad person. You are the most amazing person in world. (As least to me)  Both of us will make more mistakes, (but NOT certain ones) but even through it all, I will love you, very much!"
+        "Maddie you are amazing! I can't say it enough. I know you don't believe it sometimes, but you should. Just thinking of you brightens my day. Everything thing about you is incredible! Your Smarts, your Beauty, your Quirks, your Funniness, your Smile, your Laugh, your Personality... Yourself..... I will get into how beautiful you are, and why, next week."
+        "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️"
 
   */
