@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 8/11/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 8/16/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 7, 10, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 7, 20, 0, 0, 0);
+var transitionDay = new Date(2023, 7, 20, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 7, 27, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️";
+var quote = "I can't believe our dating anniversary is just around the corner! Although it's only two months in a little bit, I can't wait for it to be here, because that means I just spent two MORE months with YOU! Every second of being your Special Someone has been an absolute joy. I regret nothing. I love you crazy much!!!";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle1 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 // DeBug:
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 15.jpg");
-    image2 = loadImage("Flowers/Week 16:17.jpg");
+    image1 = loadImage("Flowers/Week 16:17.jpg");
+    image2 = loadImage("Flowers/Week 18.webp");
 
 }
 
@@ -301,5 +301,7 @@ function dateDifference(start, end) {
         "Maddie, I'm so glad can have hard conversations. It shows maturity in us, as individuals and as a couple. It means even when the goings get tough, we can make it though. We all miss up in life, even me, but that doesn’t mean your a bad person. You are the most amazing person in world. (As least to me)  Both of us will make more mistakes, (but NOT certain ones) but even through it all, I will love you, very much!"
         "Maddie you are amazing! I can't say it enough. I know you don't believe it sometimes, but you should. Just thinking of you brightens my day. Everything thing about you is incredible! Your Smarts, your Beauty, your Quirks, your Funniness, your Smile, your Laugh, your Personality... Yourself..... I will get into how beautiful you are, and why, next week."
         "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️"
+        "I can't believe our dating anniversary is just around the corner! Although it's only two months in a little bit, I can't wait for it to be here, because that means I just spent two MORE months with YOU! Every second of being your Special Someone has been an absolute joy. I regret nothing. I love you crazy much!!!"
+
 
   */
