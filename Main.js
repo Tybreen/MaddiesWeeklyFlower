@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 8/16/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 8/23/23";
 
 // Vars:
 
@@ -32,17 +32,17 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 7, 20, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 7, 27, 0, 0, 0);
+var transitionDay = new Date(2023, 7, 27, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 8, 3, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I can't believe our dating anniversary is just around the corner! Although it's only two months in a little bit, I can't wait for it to be here, because that means I just spent two MORE months with YOU! Every second of being your Special Someone has been an absolute joy. I regret nothing. I love you crazy much!!!";
+var quote = "You are incredible. Absolutely amazing. Such a joy to spend time with you. My best friend. My confidant. My ONLY Love.  All these attributes describe only one person... You! I hope you believe each and everyone of them.";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Vertical";
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 // DeBug:
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 16:17.jpg");
-    image2 = loadImage("Flowers/Week 18.webp");
+    image1 = loadImage("Flowers/Week 18.webp");
+    image2 = loadImage("Flowers/Week 19.jpeg");
 
 }
 
@@ -302,6 +302,7 @@ function dateDifference(start, end) {
         "Maddie you are amazing! I can't say it enough. I know you don't believe it sometimes, but you should. Just thinking of you brightens my day. Everything thing about you is incredible! Your Smarts, your Beauty, your Quirks, your Funniness, your Smile, your Laugh, your Personality... Yourself..... I will get into how beautiful you are, and why, next week."
         "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️"
         "I can't believe our dating anniversary is just around the corner! Although it's only two months in a little bit, I can't wait for it to be here, because that means I just spent two MORE months with YOU! Every second of being your Special Someone has been an absolute joy. I regret nothing. I love you crazy much!!!"
-
+        "You are incredible. Absolutely amazing. Such a joy to spend time with you. My best friend. My confidant. My ONLY Love.  All these attributes describe only one person... You! I hope you believe each and everyone of them."
+        
 
   */
