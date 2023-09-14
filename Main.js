@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 9/6/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 9/14/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 8, 10, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 8, 17, 0, 0, 0);
+var transitionDay = new Date(2023, 8, 17, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 8, 24, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I love you.     I think that is all that is needed to say this week.";
+var quote = "You Fascinate me... You are a mystery. Every single day I wonder what you're doing. Anything I learn about you I try to remember to heart. (Although I'm terrible at remembering things) Someday I hope I know everything about you, but I will always want you to be a mystery. I love you, Maddie!";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 20.jpg.avif");
-    image2 = loadImage("Flowers/Week 21.jpg");
+    image1 = loadImage("Flowers/Week 21.jpg");
+    image2 = loadImage("Flowers/Week 22.jpg");
 
 }
 
@@ -305,6 +305,6 @@ function dateDifference(start, end) {
         "You are incredible. Absolutely amazing. Such a joy to spend time with you. My best friend. My confidant. My ONLY Love.  All these attributes describe only one person... You! I hope you believe each and everyone of them."
         "So... what I want to do this time is as soon as you read this, you text me and ask me to tell you how much I love you and why, and I will answer you as soon as I can. 😊"   Answer: Well, where do I start... (I will ramble, so I'm sorry) ... Maddie you are the most amazing thing in my life. I am so glad I worked up the courage to ask you out. I can say I had so much anxiety about you not liking me or me not cutting out for you. I liked you for a long time by then and I knew you for a few months. I was very scared, but I finally worked up the courage to ask you and you said yes, but I was still crazy nervous because I've never done dating before. You don't realize how amazing you are… I don't want to lose you after just just realizing that you liked me too. For the first few (or more than a few) dates, I made so much attention to detail on how I looked, what we would you do, what would I talk about if there is a lull in the conversation, when to hold your hand or not, or when weather to give you a first kiss. Again, I was terrified... I don't feel terrified with you anymore. You are my best friend. I enjoy so much spending time with you. You make me so happy inside I wish you knew how I felt when I am with you. I wish I could show you how much I love you but words can't describe it. I remember a text message that I said "you were my first ____ " and went on for a little bit. That was me telling you that I loved you without actually saying those three words. I've never love someone like I do you. You are amazing, you are beautiful, you are so kind, so funny.  You are so special and you are so special in my heart. We have gone through some sticky situations and I believe that's only made our relationship stronger. It was hard going through that. I was scared, but afterwards it just made me love you even more.       I hope I explained how much I love you and why. If ever you need reminding please just ask. I'll try my best and fail miserably because I love you that much and I could never describe. ❤️         I got a little emotional... because I love you so much.
         "I love you.     I think that is all that is needed to say this week."
-
+        "You Fascinate me... You are a mystery. Every single day I wonder what you're doing. Anything I learn about you I try to remember to heart. (Although I'm terrible at remembering things) Someday I hope I know everything about you, but I will always want you to be a mystery. I love you, Maddie!"
 
   */
