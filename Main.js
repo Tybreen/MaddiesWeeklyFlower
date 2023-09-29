@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 9/21/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 9/28/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 8, 24, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 9, 1, 0, 0, 0);
+var transitionDay = new Date(2023, 9, 1, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 9, 8, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I know this will be (OR has been) my best birthday ever. One of the biggest reasons is because I get to have you. I am so lucky to have you. I hope I can show you, as much as I can, how much I love you. I love you Maddie. ❤️";
+var quote = "I miss you. I adore you. I love you... I will miss you, always. I will adore you, always. I will love you, always.";
 
 // Horizontal : Vertical //
 /*Here*/
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 // DeBug:
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 22.jpg");
-    image2 = loadImage("Flowers/Week 23.jpg");
+    image1 = loadImage("Flowers/Week 23.jpg");
+    image2 = loadImage("Flowers/Week 24.jpg");
 
 }
 
@@ -307,6 +307,6 @@ function dateDifference(start, end) {
         "I love you.     I think that is all that is needed to say this week."
         "You Fascinate me... You are a mystery. Every single day I wonder what you're doing. Anything I learn about you I try to remember to heart. (Although I'm terrible at remembering things) Someday I hope I know everything about you, but I will always want you to be a mystery. I love you, Maddie!"
         "I know this will be (OR has been) my best birthday ever. One of the biggest reasons is because I get to have you. I am so lucky to have you. I hope I can show you, as much as I can, how much I love you. I love you Maddie. ❤️"
-
+        "I miss you. I adore you. I love you... I will miss you, always. I will adore you, always. I will love you, always."
 
   */
