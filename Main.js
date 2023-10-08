@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 9/28/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 10/8/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 9, 1, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 9, 8, 0, 0, 0);
+var transitionDay = new Date(2023, 9, 8, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 9, 15, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I miss you. I adore you. I love you... I will miss you, always. I will adore you, always. I will love you, always.";
+var quote = "I missed you so much. You are so fun to be around. I enjoy every second I am with you. You are truly amazing. I love that we can share tea together. I can't wait to see you!";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 23.jpg");
-    image2 = loadImage("Flowers/Week 24.jpg");
+    image1 = loadImage("Flowers/Week 24.jpg");
+    image2 = loadImage("Flowers/Week 25.jpg.webp");
 
 }
 
