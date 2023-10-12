@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 10/8/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 10/12/23";
 
 // Vars:
 
@@ -32,13 +32,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 9, 8, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 9, 15, 0, 0, 0);
+var transitionDay = new Date(2023, 9, 15, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 9, 22, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "I missed you so much. You are so fun to be around. I enjoy every second I am with you. You are truly amazing. I love that we can share tea together. I can't wait to see you!";
+var quote = "Your voice is so amazing! I love hearing it and it makes me smile so much. Sammy has a great voice too but I think yours is better. But I know I'm biased by that. 😁 I love your voice, but I love you more.";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 24.jpg");
-    image2 = loadImage("Flowers/Week 25.jpg.webp");
+    image1 = loadImage("Flowers/Week 25.jpg.webp");
+    image2 = loadImage("Flowers/Week 26.jpg");
 
 }
 
@@ -135,7 +135,7 @@ function displayText()
     if(DarkMode) fill(255);
     else fill(0);
 
-    text(`We’ve been dating:\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`, 10, height / 30);
+    text(`We’ve been dating:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`, 10, height / 30);
 
     printSplittedSentences(quote, ((width / 2) * 2.9) / (height / 40), 10, height - (height / 60), height / 40);
 
@@ -308,5 +308,7 @@ function dateDifference(start, end) {
         "You Fascinate me... You are a mystery. Every single day I wonder what you're doing. Anything I learn about you I try to remember to heart. (Although I'm terrible at remembering things) Someday I hope I know everything about you, but I will always want you to be a mystery. I love you, Maddie!"
         "I know this will be (OR has been) my best birthday ever. One of the biggest reasons is because I get to have you. I am so lucky to have you. I hope I can show you, as much as I can, how much I love you. I love you Maddie. ❤️"
         "I miss you. I adore you. I love you... I will miss you, always. I will adore you, always. I will love you, always."
-
+        "I missed you so much. You are so fun to be around. I enjoy every second I am with you. You are truly amazing. I love that we can share tea together. I can't wait to see you!"
+        "Your voice is so amazing! I love hearing it and it makes me smile so much. Sammy has a great voice too but I think yours is better. But I know I'm biased by that. 😁 I love your voice, but I love you more."
+        
   */
