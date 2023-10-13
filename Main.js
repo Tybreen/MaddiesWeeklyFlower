@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 10/12/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 10/13/23";
 
 // Vars:
 
