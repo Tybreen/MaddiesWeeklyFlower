@@ -35,7 +35,7 @@ var i = 0;
 var transitionDay = new Date(2023, 9, 22, 0, 0, 0);
 var nextTransitionDay = new Date(2023, 9, 29, 0, 0, 0);
 
-var dayWeStartedDating = new Date(2022, 10, 22, 17, 30, 0);
+var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 /*Here*/
 var quote = "1 YEAR!!! Wow! I can't believe it! It's been an absolute joy to be dating you and in your life for one whole year. I can't wait for the next one! I love so very much!";
@@ -96,8 +96,6 @@ function draw()
 
     if(toggleText) displayText();
     
-
-    //console.log("Playing");
     //console.log("frameCount:" + i);
     
 }
@@ -121,7 +119,6 @@ function displayText()
 {
 
     howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
-    howLongWeHaveBeenDating[1] += 1;
 
     if(transitionDay.getTime() > Date.now()) howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
 
@@ -200,7 +197,7 @@ function printSplittedSentences(str, chr, X, Y, size)
 }
 
 
-// not mine.
+// not my code.
 function splitSentence(str, chr)
 {    
 
@@ -238,14 +235,14 @@ function splitSentence(str, chr)
 
 
 
-// not mine.
+// not my code.
 function dateDifference(start, end) {
 
     // Copy date objects so don't modify originals
     var s = new Date(+start);
     var e = new Date(+end);
     var timeDiff, years, months, days, hours, minutes, seconds;
-  
+
     // Get estimate of year difference
     years = e.getFullYear() - s.getFullYear();
   
