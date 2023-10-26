@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 10/20/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 10/26/23";
 
 // Vars:
 
@@ -32,18 +32,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 9, 22, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 9, 29, 0, 0, 0);
+var transitionDay = new Date(2023, 9, 29, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 10, 5, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "1 YEAR!!! Wow! I can't believe it! It's been an absolute joy to be dating you and in your life for one whole year. I can't wait for the next one! I love so very much!";
+var quote = "You're a stinker... Yeah I said it. You are! You drive me crazy, but even still, I'm so happy you're my best friend and my kissing coach. 💋";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle1 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 // DeBug:
 /*Here*/
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 26.jpg");
-    image2 = loadImage("Flowers/Week 27.jpeg");
+    image1 = loadImage("Flowers/Week 27.jpeg");
+    image2 = loadImage("Flowers/Week 28.jpg");
 
 }
 
@@ -308,5 +308,6 @@ function dateDifference(start, end) {
         "I missed you so much. You are so fun to be around. I enjoy every second I am with you. You are truly amazing. I love that we can share tea together. I can't wait to see you!"
         "Your voice is so amazing! I love hearing it and it makes me smile so much. Sammy has a great voice too but I think yours is better. But I know I'm biased by that. 😁 I love your voice, but I love you more."
         "1 YEAR!!! Wow! I can't believe it! It's been an absolute joy to be dating you and in your life for one whole year. I can't wait for the next one! I love so very much!"
+        "You're a stinker... Yeah I said it. You are! You drive me crazy, but even still, I'm so happy you're my best friend and my kissing coach. 💋"
 
   */
