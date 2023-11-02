@@ -309,5 +309,6 @@ function dateDifference(start, end) {
         "Your voice is so amazing! I love hearing it and it makes me smile so much. Sammy has a great voice too but I think yours is better. But I know I'm biased by that. 😁 I love your voice, but I love you more."
         "1 YEAR!!! Wow! I can't believe it! It's been an absolute joy to be dating you and in your life for one whole year. I can't wait for the next one! I love so very much!"
         "You're a stinker... Yeah I said it. You are! You drive me crazy, but even still, I'm so happy you're my best friend and my kissing coach. 💋"
-
+        "You are my light at the end of the tunnel, I will always want to get to it."
+        
   */
