@@ -8,7 +8,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 10/26/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 11/2/23";
 
 // Vars:
 
@@ -32,17 +32,17 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 9, 29, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 10, 5, 0, 0, 0);
+var transitionDay = new Date(2023, 10, 5, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 10, 12, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "You're a stinker... Yeah I said it. You are! You drive me crazy, but even still, I'm so happy you're my best friend and my kissing coach. 💋";
+var quote = "You are my light at the end of the tunnel, I will always want to get to it.";
 
 // Horizontal : Vertical //
 /*Here*/
-var photoStyle1 = "Vertical";
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 // DeBug:
@@ -53,8 +53,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 27.jpeg");
-    image2 = loadImage("Flowers/Week 28.jpg");
+    image1 = loadImage("Flowers/Week 28.jpg");
+    image2 = loadImage("Flowers/Week 29.jpg");
 
 }
 
