@@ -1,4 +1,5 @@
-/*
+/* 
+
 Name: Maddie's Weekly Flower
 
 Maddie's favorite flower: Chrysanthemum
@@ -8,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 /*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 11/9/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 11/15/23";
 
 // Vars:
 
@@ -32,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 /*Here*/
-var transitionDay = new Date(2023, 10, 12, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 10, 19, 0, 0, 0);
+var transitionDay = new Date(2023, 10, 19, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 10, 26, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 /*Here*/
-var quote = "Hi Love... you're silly, and I love it. But guess what I love more..... I'll wait.......... Fine! I'll tell you, yeesh... YOU!!!!! 😘  You're sus too.";
+var quote = "Maddie, I love you. Never, EVER, doubt that I don't.";
 
 // Horizontal : Vertical //
 /*Here*/
@@ -53,8 +54,8 @@ function preload()
 {
 
     /*Here*/
-    image1 = loadImage("Flowers/Week 29.jpg");
-    image2 = loadImage("Flowers/Week 30.jpg");
+    image1 = loadImage("Flowers/Week 30.jpg");
+    image2 = loadImage("Flowers/Week 31.jpg.webp");
 
 }
 
@@ -66,13 +67,13 @@ function setup()
 
     displayBackground();    
 
-    setInterval(function() 
+    setInterval( function() 
     { 
         Now = new Date();
 
-        /*console.log("Now:                    " + Now.toLocaleString());
-        console.log("Transition Day:   " + transitionDay.toLocaleString());
-        console.log("Drawed Image " + currentImage);*/
+        // console.log("Now:                    " + Now.toLocaleString());
+        // console.log("Transition Day:   " + transitionDay.toLocaleString());
+        // console.log("Drawed Image " + currentImage);
 
         displayImage();
 
@@ -96,7 +97,7 @@ function draw()
 
     if(toggleText) displayText();
     
-    //console.log("frameCount:" + i);
+    // console.log("frameCount:" + i);
     
 }
 
@@ -311,4 +312,6 @@ function dateDifference(start, end) {
         "You're a stinker... Yeah I said it. You are! You drive me crazy, but even still, I'm so happy you're my best friend and my kissing coach. 💋"
         "You are my light at the end of the tunnel, I will always want to get to it."
         "Hi Love... you're silly, and I love it. But guess what I love more..... I'll wait.......... Fine! I'll tell you, yeesh... YOU!!!!! 😘  You're sus too."
+        "Maddie, I love you. Never, EVER, doubt that I don't."
+
   */
