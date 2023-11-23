@@ -8,8 +8,8 @@ Date created: 10/18/22
 Given to Maddie: 4/21/23
 */
 
-/*Here*/
-var lastPublishedToGitHub = "Last Published to GitHub: 11/15/23";
+//* Here
+var lastPublishedToGitHub = "Last Published to GitHub: 11/23/23";
 
 // Vars:
 
@@ -32,30 +32,30 @@ var i = 0;
 / The month is 0-indexed: AKA: month -1 /
 / Year, Month, Day, Hour, Minute, Seconds /
 */
-/*Here*/
-var transitionDay = new Date(2023, 10, 19, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 10, 26, 0, 0, 0);
+//* Here
+var transitionDay = new Date(2023, 10, 26, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 11, 3, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
-/*Here*/
-var quote = "Maddie, I love you. Never, EVER, doubt that I don't.";
+//* Here
+var quote = "I am so thankful of you! You make me so happy. Just the sight of you makes me happy. A single word from your mouth makes me happy. A single touch from you makes me happy. I could keep going on forever, but the long and short of it is, You, Maddie, make me so happy! I love you so much!";
 
 // Horizontal : Vertical //
-/*Here*/
+//* Here
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 // DeBug:
-/*Here*/
+//* Here
 var imageSelect = false; // Default: false
 
 function preload()
 {
 
-    /*Here*/
-    image1 = loadImage("Flowers/Week 30.jpg");
-    image2 = loadImage("Flowers/Week 31.jpg.webp");
+    //* Here
+    image1 = loadImage("Flowers/Week 31.jpg.webp");
+    image2 = loadImage("Flowers/Week 32.jpg");
 
 }
 
@@ -280,7 +280,7 @@ function dateDifference(start, end) {
     return [years, months, days, hours, minutes, seconds];
   }
   
-  /*Here*/
+  //* Here
 
   /*
     Quotes:
@@ -313,5 +313,6 @@ function dateDifference(start, end) {
         "You are my light at the end of the tunnel, I will always want to get to it."
         "Hi Love... you're silly, and I love it. But guess what I love more..... I'll wait.......... Fine! I'll tell you, yeesh... YOU!!!!! 😘  You're sus too."
         "Maddie, I love you. Never, EVER, doubt that I don't."
+        "I am so thankful of you! You make me so happy. Just the sight of you makes me happy. A single word from your mouth makes me happy. A single touch from you makes me happy. I could keep going on forever, but the long and short of it is, You, Maddie, make me so happy! I love you so much!"
 
   */
