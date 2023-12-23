@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 12/15/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 12/23/23";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2023, 11, 17, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 11, 24, 0, 0, 0);
+var transitionDay = new Date(2023, 11, 24, 0, 0, 0);
+var nextTransitionDay = new Date(2023, 11, 31, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "You're here! In Myrtle Beach! We are going to have so much fun! You know why? Because you are so fun! I love you so much!";
+var quote = "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 34.jpg");
-    image2 = loadImage("Flowers/Week 35.jpg");
+    image1 = loadImage("Flowers/Week 35.jpg");
+    image2 = loadImage("Flowers/Week 36.jpg.webp");
 
 }
 
@@ -257,7 +257,7 @@ function dateDifference(start, end) {
     // Get estimate of months
     months = e.getMonth() - s.getMonth();
     months += months < 0? 12 : 0;
-  
+
     // Add difference to start, adjust if greater
     s.setMonth(s.getMonth() + months);
     if (s > e) {
@@ -276,7 +276,7 @@ function dateDifference(start, end) {
     seconds  =  timeDiff % 6e1;
   
     return [years, months, days, hours, minutes, seconds];
-  }
+    }
   
   //* Here
 
@@ -315,6 +315,6 @@ function dateDifference(start, end) {
         "I have shown you 33 pictures of flowers and I have never regreted it. You make my life so happy. I hope every little flower I send you makes you a little more happy. I love you Sweetheart."
         "I think this week's flower is really unique, just like you! You really are something. You're beautiful, you're nerdy, you're sus, you're funny. You don't normally find all those qualities in a girl. I really did hit the jackpot!!!"
         "You're here! In Myrtle Beach! We are going to have so much fun! You know why? Because you are so fun! I love you so much!"
-
-
+        "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
+        
   */
