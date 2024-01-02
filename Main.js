@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 12/23/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 1/1/23";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2023, 11, 24, 0, 0, 0);
-var nextTransitionDay = new Date(2023, 11, 31, 0, 0, 0);
+var transitionDay = new Date(2023, 11, 31, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 0, 7, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
+var quote = "I'm sorry I missed updating your website last week. Hey, 37 weeks isn't bad. I can't wait to get to 52 weeks! That will be a day. Anyway, I love you. You mean the world to me! And... I guess I'll keep you. 😉";
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 35.jpg");
-    image2 = loadImage("Flowers/Week 36.jpg.webp");
+    image1 = loadImage("Flowers/Week 36.jpg.webp");
+    image2 = loadImage("Flowers/Week 37.jpg.webp");
 
 }
 
@@ -316,5 +316,6 @@ function dateDifference(start, end) {
         "I think this week's flower is really unique, just like you! You really are something. You're beautiful, you're nerdy, you're sus, you're funny. You don't normally find all those qualities in a girl. I really did hit the jackpot!!!"
         "You're here! In Myrtle Beach! We are going to have so much fun! You know why? Because you are so fun! I love you so much!"
         "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
-        
+        "I'm sorry I missed updating your website last week. Hey, 37 weeks isn't bad. I can't wait to get to 52 weeks! That will be a day. Anyway, I love you. You mean the world to me! And... I guess I'll keep you. 😉"
+
   */
