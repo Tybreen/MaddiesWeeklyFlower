@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 1/1/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 1/8/23";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2023, 11, 31, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 0, 7, 0, 0, 0);
+var transitionDay = new Date(2023, 0, 7, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 0, 14, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I'm sorry I missed updating your website last week. Hey, 37 weeks isn't bad. I can't wait to get to 52 weeks! That will be a day. Anyway, I love you. You mean the world to me! And... I guess I'll keep you. 😉";
+var quote = "I'm sorry I missed updating your website last week (AGAIN!). It was a big week. But now that I am back into my regular rhythm, I do better. You are such good company! I always love hanging out with you. Playing Smash with you so much fun. I never feel nervous with you anymore. I'm so happy for that. I love you so much Sweetheart!";
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 36.jpg.webp");
-    image2 = loadImage("Flowers/Week 37.jpg.webp");
+    image1 = loadImage("Flowers/Week 37.jpg.webp");
+    image2 = loadImage("Flowers/Week 38.jpg");
 
 }
 
@@ -317,5 +317,6 @@ function dateDifference(start, end) {
         "You're here! In Myrtle Beach! We are going to have so much fun! You know why? Because you are so fun! I love you so much!"
         "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
         "I'm sorry I missed updating your website last week. Hey, 37 weeks isn't bad. I can't wait to get to 52 weeks! That will be a day. Anyway, I love you. You mean the world to me! And... I guess I'll keep you. 😉"
-
+        "I'm sorry I missed updating your website last week (AGAIN!). It was a big week. But now that I am back into my regular rhythm, I do better. You are such good company! I always love hanging out with you. Playing Smash with you so much fun. I never feel nervous with you anymore. I'm so happy for that. I love you so much Sweetheart!"
+        
   */
