@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 1/8/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 1/11/23";
 
 // Vars:
 
@@ -18,11 +18,11 @@ var image2;
 
 var currentImage = 0;
 
-var Now = new Date();
+var now = new Date();
 var howLongWeHaveBeenDating = [];
 var howLongTilNextPic = [];
 
-var DarkMode = false;
+var darkMode = false;
 
 var toggleText = false;
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2023, 0, 7, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 0, 14, 0, 0, 0);
+var transitionDay = new Date(2024, 0, 14, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 0, 21, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I'm sorry I missed updating your website last week (AGAIN!). It was a big week. But now that I am back into my regular rhythm, I do better. You are such good company! I always love hanging out with you. Playing Smash with you so much fun. I never feel nervous with you anymore. I'm so happy for that. I love you so much Sweetheart!";
+var quote = "I trust you. I really do. You are very honest with me and I hope I am honest with you. I like that there's no drama between us. I love a trusting, loving relationship. Just like ours. I love you Sweetheart!";
 
 // Horizontal : Vertical //
 //* Here
@@ -48,14 +48,14 @@ var photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
-var imageSelect = false; // Default: false
+var imageSelect = 2; // Default: false
 
 function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 37.jpg.webp");
-    image2 = loadImage("Flowers/Week 38.jpg");
+    image1 = loadImage("Flowers/Week 38.jpg");
+    image2 = loadImage("Flowers/Week 39.jpg.webp");
 
 }
 
@@ -69,9 +69,9 @@ function setup()
 
     setInterval( function() 
     { 
-        Now = new Date();
+        now = new Date();
 
-        // console.log("Now:                    " + Now.toLocaleString());
+        // console.log("now:                    " + now.toLocaleString());
         // console.log("Transition Day:   " + transitionDay.toLocaleString());
         // console.log("Drawed Image " + currentImage);
 
@@ -128,7 +128,7 @@ function displayText()
     textAlign(LEFT);
     textSize(height / 40);
 
-    if(DarkMode) fill(255);
+    if(darkMode) fill(255);
     else fill(0);
 
     text(`We’ve been dating:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`, 10, height / 30);
@@ -147,12 +147,12 @@ function displayBackground()
 {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         background(0);
-        DarkMode = true;
+        darkMode = true;
     }
     else 
     {
         background(255);
-        DarkMode = false;
+        darkMode = false;
     }
 }
 
@@ -247,7 +247,7 @@ function dateDifference(start, end) {
   
     // Add difference to start, if greater than end, remove one year
     // Note start from restored start date as adding and subtracting years
-    // may not be symetric
+    // may not be symmetric
     s.setFullYear(s.getFullYear() + years);
     if (s > e) {
       --years;
@@ -296,7 +296,7 @@ function dateDifference(start, end) {
         "I have so much fun with you, Maddie. You are so fun. You make me so happy. Every moment is a joy. You are my best-er-est friend!!! I can even kiss you! And I can love you very much, which I do."
         "Maddie, I'm so glad can have hard conversations. It shows maturity in us, as individuals and as a couple. It means even when the goings get tough, we can make it though. We all miss up in life, even me, but that doesn’t mean your a bad person. You are the most amazing person in world. (As least to me)  Both of us will make more mistakes, (but NOT certain ones) but even through it all, I will love you, very much!"
         "Maddie you are amazing! I can't say it enough. I know you don't believe it sometimes, but you should. Just thinking of you brightens my day. Everything thing about you is incredible! Your Smarts, your Beauty, your Quirks, your Funniness, your Smile, your Laugh, your Personality... Yourself..... I will get into how beautiful you are, and why, next week."
-        "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little esxpressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️"
+        "You are so Beautiful. Your hair, your eyes, your face, your body. (Trying not to be weird) How you act is very attractive. The little expressions you make, and you being YOU. You have a good sense of humor and you laugh at my jokes. (Good OR Bad) In general, you have a great personally and a sweet heart. I will always tell you how beautiful you are, because you deserve it. I love you very much, and if ever you need me to remind you how beautiful you are, OR how smart you are, OR how much I love you... I gladly will. ❤️"
         "I can't believe our dating anniversary is just around the corner! Although it's only two months in a little bit, I can't wait for it to be here, because that means I just spent two MORE months with YOU! Every second of being your Special Someone has been an absolute joy. I regret nothing. I love you crazy much!!!"
         "You are incredible. Absolutely amazing. Such a joy to spend time with you. My best friend. My confidant. My ONLY Love.  All these attributes describe only one person... You! I hope you believe each and everyone of them."
         "So... what I want to do this time is as soon as you read this, you text me and ask me to tell you how much I love you and why, and I will answer you as soon as I can. 😊"   Answer: Well, where do I start... (I will ramble, so I'm sorry) ... Maddie you are the most amazing thing in my life. I am so glad I worked up the courage to ask you out. I can say I had so much anxiety about you not liking me or me not cutting out for you. I liked you for a long time by then and I knew you for a few months. I was very scared, but I finally worked up the courage to ask you and you said yes, but I was still crazy nervous because I've never done dating before. You don't realize how amazing you are… I don't want to lose you after just just realizing that you liked me too. For the first few (or more than a few) dates, I made so much attention to detail on how I looked, what we would you do, what would I talk about if there is a lull in the conversation, when to hold your hand or not, or when weather to give you a first kiss. Again, I was terrified... I don't feel terrified with you anymore. You are my best friend. I enjoy so much spending time with you. You make me so happy inside I wish you knew how I felt when I am with you. I wish I could show you how much I love you but words can't describe it. I remember a text message that I said "you were my first ____ " and went on for a little bit. That was me telling you that I loved you without actually saying those three words. I've never love someone like I do you. You are amazing, you are beautiful, you are so kind, so funny.  You are so special and you are so special in my heart. We have gone through some sticky situations and I believe that's only made our relationship stronger. It was hard going through that. I was scared, but afterwards it just made me love you even more.       I hope I explained how much I love you and why. If ever you need reminding please just ask. I'll try my best and fail miserably because I love you that much and I could never describe. ❤️         I got a little emotional... because I love you so much.
@@ -312,11 +312,12 @@ function dateDifference(start, end) {
         "Hi Love... you're silly, and I love it. But guess what I love more..... I'll wait.......... Fine! I'll tell you, yeesh... YOU!!!!! 😘  You're sus too."
         "Maddie, I love you. Never, EVER, doubt that I don't."
         "I am so thankful of you! You make me so happy. Just the sight of you makes me happy. A single word from your mouth makes me happy. A single touch from you makes me happy. I could keep going on forever, but the long and short of it is, You, Maddie, make me so happy! I love you so much!"
-        "I have shown you 33 pictures of flowers and I have never regreted it. You make my life so happy. I hope every little flower I send you makes you a little more happy. I love you Sweetheart."
+        "I have shown you 33 pictures of flowers and I have never regretted it. You make my life so happy. I hope every little flower I send you makes you a little more happy. I love you Sweetheart."
         "I think this week's flower is really unique, just like you! You really are something. You're beautiful, you're nerdy, you're sus, you're funny. You don't normally find all those qualities in a girl. I really did hit the jackpot!!!"
         "You're here! In Myrtle Beach! We are going to have so much fun! You know why? Because you are so fun! I love you so much!"
         "I miss you. I hope you enjoyed Myrtle Beach. I know I did! I love my watch so much! I can't wait to show you it, on my arm. I love you so much!!!";
         "I'm sorry I missed updating your website last week. Hey, 37 weeks isn't bad. I can't wait to get to 52 weeks! That will be a day. Anyway, I love you. You mean the world to me! And... I guess I'll keep you. 😉"
         "I'm sorry I missed updating your website last week (AGAIN!). It was a big week. But now that I am back into my regular rhythm, I do better. You are such good company! I always love hanging out with you. Playing Smash with you so much fun. I never feel nervous with you anymore. I'm so happy for that. I love you so much Sweetheart!"
+        "I trust you. I really do. You are very honest with me and I hope I am honest with you. I like that there's no drama between us. I love a trusting, loving relationship. Just like ours. I love you Sweetheart!"
         
   */
