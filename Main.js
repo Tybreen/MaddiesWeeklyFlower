@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 1/18/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 1/23/23";
 
 // Vars:
 
@@ -33,18 +33,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 0, 21, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 0, 28, 0, 0, 0);
+var transitionDay = new Date(2024, 0, 28, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 1, 4, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I love you so much! You have no idea! You are so attractive! And not just in a hot way! I am drawn to you. I have been for years. You have made me fall head-over heels in love with you over, and over again!";
+var quote = `You know something, I know you. Not just like "I know you", "I KNOW YOU!" I can guess what you're going to do and what you are going to say. I know you personally, I know what haunts you and you know what haunts me. I know that you love me, and you know that I love you. I love you Maddie!`;
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+var photoStyle1 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 39.jpg.webp");
-    image2 = loadImage("Flowers/Week 40.jpg.webp");
+    image1 = loadImage("Flowers/Week 40.jpg.webp");
+    image2 = loadImage("Flowers/Week 41.jpg");
 
 }
 
@@ -145,7 +145,8 @@ function displayText()
 
 function displayBackground()
 {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches)
+    {
         background(0);
         darkMode = true;
     }
@@ -186,7 +187,7 @@ function printSplittedSentences(str, chr, X, Y, size)
 {
 
     lst = splitSentence(str, chr);
-
+    
     textSize(size);
 
     for(var i = 1; i <= lst.length; i++)
@@ -213,13 +214,13 @@ function splitSentence(str, chr)
     // If the length of that content and the new word
     // in the iteration exceeds 20 chars push the new
     // word to a new array
-    if (currLen + c.length > chr) {
+    if (currLen + c.length > chr)
+    {
         acc.push([c]);
 
-    // otherwise add it to the existing array
-    } else {
-        acc[currIndex].push(c);
+        // otherwise add it to the existing array
     }
+    else acc[currIndex].push(c);
 
     return acc;
 
@@ -235,8 +236,8 @@ function splitSentence(str, chr)
 
 
 // not my code.
-function dateDifference(start, end) {
-
+function dateDifference(start, end)
+{
     // Copy date objects so don't modify originals
     var s = new Date(+start);
     var e = new Date(+end);
@@ -249,10 +250,11 @@ function dateDifference(start, end) {
     // Note start from restored start date as adding and subtracting years
     // may not be symmetric
     s.setFullYear(s.getFullYear() + years);
-    if (s > e) {
-      --years;
-      s = new Date(+start);
-      s.setFullYear(s.getFullYear() + years);
+    if (s > e)
+    {
+        --years;
+        s = new Date(+start);
+        s.setFullYear(s.getFullYear() + years);
     }
     // Get estimate of months
     months = e.getMonth() - s.getMonth();
@@ -260,11 +262,12 @@ function dateDifference(start, end) {
 
     // Add difference to start, adjust if greater
     s.setMonth(s.getMonth() + months);
-    if (s > e) {
-      --months;
-      s = new Date(+start);
-      s.setFullYear(s.getFullYear() + years);
-      s.setMonth(s.getMonth() + months);
+    if (s > e)
+    {
+        --months;
+        s = new Date(+start);
+        s.setFullYear(s.getFullYear() + years);
+        s.setMonth(s.getMonth() + months);
     }
   
   
@@ -276,4 +279,4 @@ function dateDifference(start, end) {
     seconds  =  timeDiff % 6e1;
   
     return [years, months, days, hours, minutes, seconds];
-    }
+}
