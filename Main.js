@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 1/23/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 2/1/23";
 
 // Vars:
 
@@ -33,29 +33,29 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 0, 28, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 1, 4, 0, 0, 0);
+var transitionDay = new Date(2024, 1, 4, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 1, 11, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `You know something, I know you. Not just like "I know you", "I KNOW YOU!" I can guess what you're going to do and what you are going to say. I know you personally, I know what haunts you and you know what haunts me. I know that you love me, and you know that I love you. I love you Maddie!`;
+var quote = "Maddie, you are so amazing! You have absolutely no idea. I wish I knew how amazing you are. You could go up for so many awards ceremonies. You could be Miss America time, and time again. People could recognize you on the street, and get all bashful if they ask you if you were THEE Maddie Meeter. But if that doesn't happen, just know that your boyfriend is the luckiest guy in the world. He will always be the luckiest guy. I love you, Maddie. From, Boyfriend";
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Vertical";
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
-var imageSelect = false; // Default: false
+var imageSelect = 2; // Default: false
 
 function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 40.jpg.webp");
-    image2 = loadImage("Flowers/Week 41.jpg");
+    image1 = loadImage("Flowers/Week 41.jpg");
+    image2 = loadImage("Flowers/Week 42.jpg");
 
 }
 
