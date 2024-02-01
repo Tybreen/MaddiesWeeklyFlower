@@ -48,7 +48,7 @@ var photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
-var imageSelect = 2; // Default: false
+var imageSelect = false; // Default: false
 
 function preload()
 {
