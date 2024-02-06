@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 2/1/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 2/5/23";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 1, 4, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 1, 11, 0, 0, 0);
+var transitionDay = new Date(2024, 1, 11, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 1, 18, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "Maddie, you are so amazing! You have absolutely no idea. I wish I knew how amazing you are. You could go up for so many awards ceremonies. You could be Miss America time, and time again. People could recognize you on the street, and get all bashful if they ask you if you were THEE Maddie Meeter. But if that doesn't happen, just know that your boyfriend is the luckiest guy in the world. He will always be the luckiest guy. I love you, Maddie. From, Boyfriend";
+var quote = "You didn't think I would forget your website did you? I'm having fun in Mexico. I'm glad that I can still talk to you via email. I'm so glad that technology allows us to do that. I love you. That is the whole point of this website, for me to show you how much I love you. I've been doing this for almost a whole year that shows that I love you, a whole butt ton!!!";
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 41.jpg");
-    image2 = loadImage("Flowers/Week 42.jpg");
+    image1 = loadImage("Flowers/Week 42.jpg");
+    image2 = loadImage("Flowers/Week 43.jpg");
 
 }
 
