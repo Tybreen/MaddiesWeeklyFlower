@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 2/5/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 2/18/23";
 
 // Vars:
 
@@ -33,18 +33,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 1, 11, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 1, 18, 0, 0, 0);
+var transitionDay = new Date(2024, 1, 18, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 1, 25, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "You didn't think I would forget your website did you? I'm having fun in Mexico. I'm glad that I can still talk to you via email. I'm so glad that technology allows us to do that. I love you. That is the whole point of this website, for me to show you how much I love you. I've been doing this for almost a whole year that shows that I love you, a whole butt ton!!!";
+var quote = "I love you. I know you'll always be there for me. Thank you for being such a great girlfriend and a great friend, my best friend. You make me so happy. You make my life an adventure. I love you so much!!!     (This flower is from Mexico. I took the picture)";
 
 // Horizontal : Vertical //
 //* Here
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 42.jpg");
-    image2 = loadImage("Flowers/Week 43.jpg");
+    image1 = loadImage("Flowers/Week 43.jpg");
+    image2 = loadImage("Flowers/Week 44.jpeg");
 
 }
 
