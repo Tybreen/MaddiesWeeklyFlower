@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 2/18/23";
+var lastPublishedToGitHub = "Last Published to GitHub: 2/21/24";
 
 // Vars:
 
@@ -33,17 +33,17 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 1, 18, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 1, 25, 0, 0, 0);
+var transitionDay = new Date(2024, 1, 25, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 2, 3, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I love you. I know you'll always be there for me. Thank you for being such a great girlfriend and a great friend, my best friend. You make me so happy. You make my life an adventure. I love you so much!!!     (This flower is from Mexico. I took the picture)";
+var quote = "Sweetheart, I think about you all the time. I miss you all the time! I wish you were here right now! You make me smile, you make me laugh, you make me feel loved. I love you so much!!!     (This flower is also from Mexico)";
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Horizontal";
+var photoStyle1 = "Vertical";
 var photoStyle2 = "Vertical";
 
 // DeBug:
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 43.jpg");
-    image2 = loadImage("Flowers/Week 44.jpeg");
+    image1 = loadImage("Flowers/Week 44.jpeg");
+    image2 = loadImage("Flowers/Week 45.jpeg");
 
 }
 
