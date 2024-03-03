@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 2/21/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 3/3/24";
 
 // Vars:
 
@@ -33,18 +33,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 1, 25, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 2, 3, 0, 0, 0);
+var transitionDay = new Date(2024, 2, 3, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 2, 10, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "Sweetheart, I think about you all the time. I miss you all the time! I wish you were here right now! You make me smile, you make me laugh, you make me feel loved. I love you so much!!!     (This flower is also from Mexico)";
+var quote = "I'm really sorry I missed last week's flower. I'm trying to manage my time and remember all the things I have to do, but it's pretty hard. Is this what adulting is?!?!? All jokes aside I'm sorry. I feel like I'm not hitting the mark on everything. I don't wanna let you down. This is important to me and it's hard for me to forget about it. I will continue to try my best, and it's super reassuring to know even when I mess up you will still love me. I'm so happy I am in THIS relationship! And half the reason of that is you. I love you. ♥️";
 
 // Horizontal : Vertical //
 //* Here
 var photoStyle1 = "Vertical";
-var photoStyle2 = "Vertical";
+var photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("Flowers/Week 44.jpeg");
-    image2 = loadImage("Flowers/Week 45.jpeg");
+    image1 = loadImage("./Flowers/Week 45.jpeg");
+    image2 = loadImage("./Flowers/Week 46.jpg");
 
 }
 
