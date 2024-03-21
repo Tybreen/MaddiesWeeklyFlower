@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 3/14/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 3/20/24";
 
 // Vars:
 
@@ -39,7 +39,7 @@ var nextTransitionDay = new Date(2024, 2, 31, 0, 0, 0);
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = "I missed last week again... I'm sorry I'm trying to get better. You give me so much comfort and peace. I can say something wrong or if I mess up you don't threaten to leave me. I know you love me and I love you. I hope through thick and thin, we can always pull through. I love you, and I hope everything I do shows you how much. I will never stop loving you!";
+var quote = `At the time of this writing today was a big day. If things were different, you would be on your second anniversary. I hate saying it, but it's true. But thankfully for both of us, that day never came. Today we celebrate one more day of being each others and loving each other so much. I'm sure you thought about it a lot. I wish I could comfort you better. I wanna tell you that, you are the most amazing person ever. I'm not just saying that is your boyfriend, I'm saying that as your friend and the person that has been laughing and smiling with you for almost a year and a half. Don't be sad about anything, you have many years of smiling ahead of you! I hope someday you will not take a second of your day thinking about him. But until that day comes, I love you all the more, and think nothing differently of you in any way, shape, or form. I hope I never lose you, because I sure wanna get to our 50th anniversary. I love you, Madeline Meeter, never forget that! I'll always be by your side, through thick and thin, through everything. You are my partner in crime and my partner in general. I love you! ❤️`;
 
 // Horizontal : Vertical //
 //* Here
@@ -55,7 +55,7 @@ function preload()
 
     //* Here
     image1 = loadImage("./Flowers/Week 47:48.jpg");
-    image2 = loadImage("./Flowers/Week 47:48.jpg");
+    image2 = loadImage("./Flowers/Week 49.jpg");
 
 }
 
