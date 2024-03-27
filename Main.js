@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 3/20/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 3/26/24";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 2, 24, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 2, 31, 0, 0, 0);
+var transitionDay = new Date(2024, 2, 31, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 3, 7, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `At the time of this writing today was a big day. If things were different, you would be on your second anniversary. I hate saying it, but it's true. But thankfully for both of us, that day never came. Today we celebrate one more day of being each others and loving each other so much. I'm sure you thought about it a lot. I wish I could comfort you better. I wanna tell you that, you are the most amazing person ever. I'm not just saying that is your boyfriend, I'm saying that as your friend and the person that has been laughing and smiling with you for almost a year and a half. Don't be sad about anything, you have many years of smiling ahead of you! I hope someday you will not take a second of your day thinking about him. But until that day comes, I love you all the more, and think nothing differently of you in any way, shape, or form. I hope I never lose you, because I sure wanna get to our 50th anniversary. I love you, Madeline Meeter, never forget that! I'll always be by your side, through thick and thin, through everything. You are my partner in crime and my partner in general. I love you! ❤️`;
+var quote = `Guess what week this is... This is week 50!!! I can't believe you've looked at this website once every week. Pretty amazing! You're a pretty amazing!!! I don't have too much to say this week. I need to make sure at least it fits on the page. I'll just leave you with this. I love you so so much! I can't imagine a world without you. I'm so so excited to see where we are in 50 more weeks.`;
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ function preload()
 {
 
     //* Here
-    image1 = loadImage("./Flowers/Week 47:48.jpg");
-    image2 = loadImage("./Flowers/Week 49.jpg");
+    image1 = loadImage("./Flowers/Week 49.jpg");
+    image2 = loadImage("./Flowers/Week 50.jpg");
 
 }
 
