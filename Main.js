@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 4/4/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 4/9/24";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 3, 7, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 3, 14, 0, 0, 0);
+var transitionDay = new Date(2024, 3, 14, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 3, 21, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `I miss you every day! Why can't you be with me forever?!? Someday..... Anyway, I love you! That's all you need to know this week, that I love you so much.`;
+var quote = `I'm running out of things to say... this conversation is very one-sided, hmmm... Anyway, I love you, you love me, what's more to say. I'm glad we are together. You are the zig, to to my zag. You are the Maddie, to my Tyler. I love you. Talk to you next week!`;
 
 // Horizontal : Vertical //
 //* Here
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
   //* Here
-  image1 = loadImage("./Flowers/Week 50.jpg");
-  image2 = loadImage("./Flowers/Week 51.webp");
+  image1 = loadImage("./Flowers/Week 51.webp");
+  image2 = loadImage("./Flowers/Week 52.jpg");
 }
 
 function setup() {
