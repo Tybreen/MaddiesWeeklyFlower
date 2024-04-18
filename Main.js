@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 4/9/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 4/17/24";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 3, 14, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 3, 21, 0, 0, 0);
+var transitionDay = new Date(2024, 3, 21, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 3, 28, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `I'm running out of things to say... this conversation is very one-sided, hmmm... Anyway, I love you, you love me, what's more to say. I'm glad we are together. You are the zig, to to my zag. You are the Maddie, to my Tyler. I love you. Talk to you next week!`;
+var quote = `Every moment with you is a love story unfolding. Your smile, a melody; your touch, a gentle caress. In your eyes, I find home, and in your embrace, I find solace. My love for you knows no bounds, for you are the light that guides me through life's darkest nights. Forever and always, my heart beats for you.  .....  Don't worry, I'm not THAT romantic. I wanted to change something up and I asked ChatGPT to write me a romantic note. I hope you like it, came straight from the heart of my computer. (Seriously, I hope you like) I'm not planning on using it every week. I just thought it be fun to do it this week. I love you so much!!! ❤️`;
 
 // Horizontal : Vertical //
 //* Here
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
   //* Here
-  image1 = loadImage("./Flowers/Week 51.webp");
-  image2 = loadImage("./Flowers/Week 52.jpg");
+  image1 = loadImage("./Flowers/Week 52.jpg");
+  image2 = loadImage("./Flowers/Week 53.webp");
 }
 
 function setup() {
