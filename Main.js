@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 4/17/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 4/24/24";
 
 // Vars:
 
@@ -33,13 +33,13 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 3, 21, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 3, 28, 0, 0, 0);
+var transitionDay = new Date(2024, 3, 28, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 4, 5, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `Every moment with you is a love story unfolding. Your smile, a melody; your touch, a gentle caress. In your eyes, I find home, and in your embrace, I find solace. My love for you knows no bounds, for you are the light that guides me through life's darkest nights. Forever and always, my heart beats for you.  .....  Don't worry, I'm not THAT romantic. I wanted to change something up and I asked ChatGPT to write me a romantic note. I hope you like it, came straight from the heart of my computer. (Seriously, I hope you like) I'm not planning on using it every week. I just thought it be fun to do it this week. I love you so much!!! ❤️`;
+var quote = `I'm so proud of you!!! Really I am! You have accomplish so much! I will probably never get a college degree, and yet, you can say you have a college degree at 19! So hot! I'm dating a college graduate! Also, very hot! I miss you!  I'm so happy I'm dating such a smart person, A.K.A. YOU! I love you so much!`;
 
 // Horizontal : Vertical //
 //* Here
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
   //* Here
-  image1 = loadImage("./Flowers/Week 52.jpg");
-  image2 = loadImage("./Flowers/Week 53.webp");
+  image1 = loadImage("./Flowers/Week 53.webp");
+  image2 = loadImage("./Flowers/Week 54.webp");
 }
 
 function setup() {
