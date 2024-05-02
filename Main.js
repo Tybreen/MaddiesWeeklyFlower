@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 4/24/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 5/1/24";
 
 // Vars:
 
@@ -33,214 +33,214 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 3, 28, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 4, 5, 0, 0, 0);
+var transitionDay = new Date(2024, 4, 5, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 4, 12, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `I'm so proud of you!!! Really I am! You have accomplish so much! I will probably never get a college degree, and yet, you can say you have a college degree at 19! So hot! I'm dating a college graduate! Also, very hot! I miss you!  I'm so happy I'm dating such a smart person, A.K.A. YOU! I love you so much!`;
+var quote = `You're graduated!!! I am so proud of you. Really I am! I will always be your biggest fan!!! I love you very much!`;
 
 // Horizontal : Vertical //
 //* Here
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
 var imageSelect = false; // Default: false
 
 function preload() {
-  //* Here
-  image1 = loadImage("./Flowers/Week 53.webp");
-  image2 = loadImage("./Flowers/Week 54.webp");
+	//* Here
+	image1 = loadImage("./Flowers/Week 54.webp");
+	image2 = loadImage("./Flowers/Week 55.jpeg");
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, windowHeight);
 
-  console.log(lastPublishedToGitHub);
+	console.log(lastPublishedToGitHub);
 
-  displayBackground();
+	displayBackground();
 
-  setInterval(function () {
-    now = new Date();
+	setInterval(function () {
+		now = new Date();
 
-    // console.log("now:                    " + now.toLocaleString());
-    // console.log("Transition Day:   " + transitionDay.toLocaleString());
-    // console.log("Drawed Image " + currentImage);
+		// console.log("now:                    " + now.toLocaleString());
+		// console.log("Transition Day:   " + transitionDay.toLocaleString());
+		// console.log("Drawed Image " + currentImage);
 
-    displayImage();
-  }, 1000);
+		displayImage();
+	}, 1000);
 }
 
 function draw() {
-  if (i < 5) {
-    i = frameCount;
+	if (i < 5) {
+		i = frameCount;
 
-    displayBackground();
-    displayImage();
-  }
+		displayBackground();
+		displayImage();
+	}
 
-  if (toggleText) displayText();
+	if (toggleText) displayText();
 
-  // console.log("frameCount:" + i);
+	// console.log("frameCount:" + i);
 }
 
 function mousePressed() {
-  if (!toggleText) {
-    toggleText = true;
-  } else {
-    toggleText = false;
-    displayBackground();
-    displayImage();
-  }
+	if (!toggleText) {
+		toggleText = true;
+	} else {
+		toggleText = false;
+		displayBackground();
+		displayImage();
+	}
 }
 
 function displayText() {
-  howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
+	howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
 
-  if (transitionDay.getTime() > Date.now()) howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
-  else howLongTilNextPic = dateDifference(Date.now(), nextTransitionDay.getTime());
+	if (transitionDay.getTime() > Date.now()) howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
+	else howLongTilNextPic = dateDifference(Date.now(), nextTransitionDay.getTime());
 
-  displayBackground();
+	displayBackground();
 
-  textAlign(LEFT);
-  textSize(height / 40);
+	textAlign(LEFT);
+	textSize(height / 40);
 
-  if (darkMode) fill(255);
-  else fill(0);
+	if (darkMode) fill(255);
+	else fill(0);
 
-  text(
-    `We've been dating:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`,
-    10,
-    height / 30
-  );
+	text(
+		`We've been dating:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`,
+		10,
+		height / 30
+	);
 
-  printSplittedSentences(quote, ((width / 2) * 2.9) / (height / 40), 10, height - height / 60, height / 40);
+	printSplittedSentences(quote, ((width / 2) * 2.9) / (height / 40), 10, height - height / 60, height / 40);
 
-  textAlign(RIGHT);
+	textAlign(RIGHT);
 
-  text(
-    `Until Next Picture:\n${howLongTilNextPic[2]} Days\n${howLongTilNextPic[3]} Hours\n${howLongTilNextPic[4]} Minutes\n${howLongTilNextPic[5]} Seconds\n`,
-    width - 10,
-    height / 30
-  );
+	text(
+		`Until Next Picture:\n${howLongTilNextPic[2]} Days\n${howLongTilNextPic[3]} Hours\n${howLongTilNextPic[4]} Minutes\n${howLongTilNextPic[5]} Seconds\n`,
+		width - 10,
+		height / 30
+	);
 
-  text("To Maddie", width - 10, height - height / 20);
-  text("Love, Tyler", width - 10, height - height / 60);
+	text("To Maddie", width - 10, height - height / 20);
+	text("Love, Tyler", width - 10, height - height / 60);
 }
 
 function displayBackground() {
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    background(0);
-    darkMode = true;
-  } else {
-    background(255);
-    darkMode = false;
-  }
+	if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+		background(0);
+		darkMode = true;
+	} else {
+		background(255);
+		darkMode = false;
+	}
 }
 
 function displayImage() {
-  imageMode(CENTER);
+	imageMode(CENTER);
 
-  if (imageSelect == 1 || (imageSelect == false && transitionDay.getTime() > Date.now())) {
-    image(image1, width / 2, height / 2, 0, 0);
+	if (imageSelect == 1 || (imageSelect == false && transitionDay.getTime() > Date.now())) {
+		image(image1, width / 2, height / 2, 0, 0);
 
-    if (photoStyle1 == "Horizontal") image1.resize(width, 0);
-    else if (photoStyle1 == "Vertical") image1.resize(0, height);
+		if (photoStyle1 == "Horizontal") image1.resize(width, 0);
+		else if (photoStyle1 == "Vertical") image1.resize(0, height);
 
-    currentImage = 1;
-  } else if (imageSelect == 2 || (imageSelect == false && transitionDay.getTime() < Date.now())) {
-    image(image2, width / 2, height / 2, 0, 0);
+		currentImage = 1;
+	} else if (imageSelect == 2 || (imageSelect == false && transitionDay.getTime() < Date.now())) {
+		image(image2, width / 2, height / 2, 0, 0);
 
-    if (photoStyle2 == "Horizontal") image2.resize(width, 0);
-    else if (photoStyle2 == "Vertical") image2.resize(0, height);
+		if (photoStyle2 == "Horizontal") image2.resize(width, 0);
+		else if (photoStyle2 == "Vertical") image2.resize(0, height);
 
-    currentImage = 2;
-  }
+		currentImage = 2;
+	}
 }
 
 function printSplittedSentences(str, chr, X, Y, size) {
-  lst = splitSentence(str, chr);
+	lst = splitSentence(str, chr);
 
-  textSize(size);
+	textSize(size);
 
-  for (var i = 1; i <= lst.length; i++) {
-    text(lst[lst.length - i], X, Y - (i - 1) * (size * 1.25));
-  }
+	for (var i = 1; i <= lst.length; i++) {
+		text(lst[lst.length - i], X, Y - (i - 1) * (size * 1.25));
+	}
 }
 
 // not my code.
 function splitSentence(str, chr) {
-  // Split up the string and use `reduce`
-  // to iterate over it
-  const temp = str.split(" ").reduce(
-    (acc, c) => {
-      // Get the number of nested arrays
-      const currIndex = acc.length - 1;
+	// Split up the string and use `reduce`
+	// to iterate over it
+	const temp = str.split(" ").reduce(
+		(acc, c) => {
+			// Get the number of nested arrays
+			const currIndex = acc.length - 1;
 
-      // Join up the last array and get its length
-      const currLen = acc[currIndex].join(" ").length;
+			// Join up the last array and get its length
+			const currLen = acc[currIndex].join(" ").length;
 
-      // If the length of that content and the new word
-      // in the iteration exceeds 20 chars push the new
-      // word to a new array
-      if (currLen + c.length > chr) {
-        acc.push([c]);
+			// If the length of that content and the new word
+			// in the iteration exceeds 20 chars push the new
+			// word to a new array
+			if (currLen + c.length > chr) {
+				acc.push([c]);
 
-        // otherwise add it to the existing array
-      } else acc[currIndex].push(c);
+				// otherwise add it to the existing array
+			} else acc[currIndex].push(c);
 
-      return acc;
-    },
-    [[]]
-  );
+			return acc;
+		},
+		[[]]
+	);
 
-  // Join up all the nested arrays
-  const out = temp.map((arr) => arr.join(" "));
+	// Join up all the nested arrays
+	const out = temp.map((arr) => arr.join(" "));
 
-  return out;
+	return out;
 }
 
 // not my code.
 function dateDifference(start, end) {
-  // Copy date objects so don't modify originals
-  var s = new Date(+start);
-  var e = new Date(+end);
-  var timeDiff, years, months, days, hours, minutes, seconds;
+	// Copy date objects so don't modify originals
+	var s = new Date(+start);
+	var e = new Date(+end);
+	var timeDiff, years, months, days, hours, minutes, seconds;
 
-  // Get estimate of year difference
-  years = e.getFullYear() - s.getFullYear();
+	// Get estimate of year difference
+	years = e.getFullYear() - s.getFullYear();
 
-  // Add difference to start, if greater than end, remove one year
-  // Note start from restored start date as adding and subtracting years
-  // may not be symmetric
-  s.setFullYear(s.getFullYear() + years);
-  if (s > e) {
-    --years;
-    s = new Date(+start);
-    s.setFullYear(s.getFullYear() + years);
-  }
-  // Get estimate of months
-  months = e.getMonth() - s.getMonth();
-  months += months < 0 ? 12 : 0;
+	// Add difference to start, if greater than end, remove one year
+	// Note start from restored start date as adding and subtracting years
+	// may not be symmetric
+	s.setFullYear(s.getFullYear() + years);
+	if (s > e) {
+		--years;
+		s = new Date(+start);
+		s.setFullYear(s.getFullYear() + years);
+	}
+	// Get estimate of months
+	months = e.getMonth() - s.getMonth();
+	months += months < 0 ? 12 : 0;
 
-  // Add difference to start, adjust if greater
-  s.setMonth(s.getMonth() + months);
-  if (s > e) {
-    --months;
-    s = new Date(+start);
-    s.setFullYear(s.getFullYear() + years);
-    s.setMonth(s.getMonth() + months);
-  }
+	// Add difference to start, adjust if greater
+	s.setMonth(s.getMonth() + months);
+	if (s > e) {
+		--months;
+		s = new Date(+start);
+		s.setFullYear(s.getFullYear() + years);
+		s.setMonth(s.getMonth() + months);
+	}
 
-  // Get remaining time difference, round to next full second
-  timeDiff = ((e - s + 999) / 1e3) | 0;
-  days = (timeDiff / 8.64e4) | 0;
-  hours = ((timeDiff % 8.64e4) / 3.6e3) | 0;
-  minutes = ((timeDiff % 3.6e3) / 6e1) | 0;
-  seconds = timeDiff % 6e1;
+	// Get remaining time difference, round to next full second
+	timeDiff = ((e - s + 999) / 1e3) | 0;
+	days = (timeDiff / 8.64e4) | 0;
+	hours = ((timeDiff % 8.64e4) / 3.6e3) | 0;
+	minutes = ((timeDiff % 3.6e3) / 6e1) | 0;
+	seconds = timeDiff % 6e1;
 
-  return [years, months, days, hours, minutes, seconds];
+	return [years, months, days, hours, minutes, seconds];
 }
