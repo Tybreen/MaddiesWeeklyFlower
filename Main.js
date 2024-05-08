@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 5/1/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 5/8/24";
 
 // Vars:
 
@@ -33,17 +33,17 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 4, 5, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 4, 12, 0, 0, 0);
+var transitionDay = new Date(2024, 4, 12, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 4, 19, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `You're graduated!!! I am so proud of you. Really I am! I will always be your biggest fan!!! I love you very much!`;
+var quote = `The next photo is a beautiful flower arrangement for a beautiful young woman! Your sick right now, I hate knowing that your not feeling good. I wish you were feeling better. I MISS YOU SOOO MUCH!!! I love you too! I'm your partner in everything, I'm your partner forever!`;
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Horizontal";
+var photoStyle1 = "Vertical";
 var photoStyle2 = "Vertical";
 
 // DeBug:
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 54.webp");
-	image2 = loadImage("./Flowers/Week 55.jpeg");
+	image1 = loadImage("./Flowers/Week 55.jpeg");
+	image2 = loadImage("./Flowers/Week 56.jpeg");
 }
 
 function setup() {
