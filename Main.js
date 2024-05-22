@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 5/17/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 5/21/24";
 
 // Vars:
 
@@ -33,17 +33,17 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 4, 19, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 4, 26, 0, 0, 0);
+var transitionDay = new Date(2024, 4, 26, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 5, 2, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `I love you so much, Maddie! You are the love of my life! I would do anything for you! Big hugs, big kisses, and all the love!`;
+var quote = `I'm sure going to miss you when you go to Alaska. Don't worry I'll email you every night even if you're too sleepy to email, I will always email you. I cannot wait to hear what you do and how much fun you'll have. You're amazing and you deserve every little bit of fun that's in this world. Someday you'll get to try me out!!! 😏 ❤️‍🔥   Depending on when you read this, you'll either be thinking back to Friday or you'll be excited for Friday. Either way it'll be a great night full of wonder and you and me! Ohhh, I know I can't pry myself off you!!!`;
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Vertical";
+var photoStyle1 = "Horizontal";
 var photoStyle2 = "Horizontal";
 
 // DeBug:
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 56.jpeg");
-	image2 = loadImage("./Flowers/Week 57.jpg");
+	image1 = loadImage("./Flowers/Week 57.jpg");
+	image2 = loadImage("./Flowers/Week 58.jpg");
 }
 
 function setup() {
