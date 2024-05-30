@@ -9,11 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-<<<<<<< HEAD
-var lastPublishedToGitHub = "Last Published to GitHub: 5/21/24";
-=======
 var lastPublishedToGitHub = "Last Published to GitHub: 5/30/24";
->>>>>>> testing
 
 // Vars:
 
