@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 6/5/24";
+var lastPublishedToGitHub = "Last Published to GitHub: 6/11/24";
 
 // Vars:
 
@@ -33,18 +33,18 @@ var i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 5, 9, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 5, 16, 0, 0, 0);
+var transitionDay = new Date(2024, 5, 16, 0, 0, 0);
+var nextTransitionDay = new Date(2024, 5, 23, 0, 0, 0);
 
 var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `You are so brave! You really are! You've done things that I have never done before. You flew across the world with people you didn't know. You've flown across the country all alone. You graduated top of your class. You've been dating me for a year and 7 1/2 months!!! That's really brave!!! You talk about your emotions and be vulnerable. In my opinion that is the bravest thing! I love you!`;
+var quote = `I say "I miss you" a lot. I'm sorry about that. But... I really do! You're my best friend, I would love to spend all of my time with you if I could!!! I can't wait to see you! You are my everything! That's why I would do anything for you! My life is so much more brighter now that I have you in it! I love you so much!!!`;
 
 // Horizontal : Vertical //
 //* Here
 var photoStyle1 = "Horizontal";
-var photoStyle2 = "Horizontal";
+var photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
@@ -52,8 +52,8 @@ var imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 59.jpeg");
-	image2 = loadImage("./Flowers/Week 60.jpg");
+	image1 = loadImage("./Flowers/Week 60.jpg");
+	image2 = loadImage("./Flowers/Week 61.jpg");
 }
 
 function setup() {
