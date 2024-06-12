@@ -9,46 +9,49 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-var lastPublishedToGitHub = "Last Published to GitHub: 6/11/24";
+const lastPublishedToGitHub = "Last Published to GitHub: 6/11/24";
 
 // Vars:
 
-var image1;
-var image2;
+let image1;
+let image2;
 
-var currentImage = 0;
+let currentImage = 0;
 
-var now = new Date();
-var howLongWeHaveBeenDating = [];
-var howLongTilNextPic = [];
+let now = new Date();
+let howLongWeHaveBeenDating = [];
+let howLongTilEvent = [];
 
-var darkMode = false;
+let darkMode = false;
 
-var toggleText = false;
+let toggleText = false;
 
-var i = 0;
+let i = 0;
 
 /*
 / The month is 0-indexed: AKA: month -1 /
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-var transitionDay = new Date(2024, 5, 16, 0, 0, 0);
-var nextTransitionDay = new Date(2024, 5, 23, 0, 0, 0);
+const transitionDay = new Date(2024, 5, 16, 0, 0, 0);
+const nextTransitionDay = new Date(2024, 5, 23, 0, 0, 0);
 
-var dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
+const eventName = `Imagine Dragons`;
+const eventDate = new Date(2024, 7, 12, 20, 0, 0);
+
+const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-var quote = `I say "I miss you" a lot. I'm sorry about that. But... I really do! You're my best friend, I would love to spend all of my time with you if I could!!! I can't wait to see you! You are my everything! That's why I would do anything for you! My life is so much more brighter now that I have you in it! I love you so much!!!`;
+const quote = `I say "I miss you" a lot. I'm sorry about that. But... I really do! You're my best friend, I would love to spend all of my time with you if I could!!! I can't wait to see you! You are my everything! That's why I would do anything for you! My life is so much more brighter now that I have you in it! I love you so much!!!`;
 
 // Horizontal : Vertical //
 //* Here
-var photoStyle1 = "Horizontal";
-var photoStyle2 = "Vertical";
+const photoStyle1 = "Horizontal";
+const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
-var imageSelect = false; // Default: false
+const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
@@ -66,10 +69,6 @@ function setup() {
 	setInterval(function () {
 		now = new Date();
 
-		// console.log("now:                    " + now.toLocaleString());
-		// console.log("Transition Day:   " + transitionDay.toLocaleString());
-		// console.log("Drawed Image " + currentImage);
-
 		displayImage();
 	}, 1000);
 }
@@ -83,8 +82,6 @@ function draw() {
 	}
 
 	if (toggleText) displayText();
-
-	// console.log("frameCount:" + i);
 }
 
 function mousePressed() {
@@ -100,8 +97,11 @@ function mousePressed() {
 function displayText() {
 	howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
 
-	if (transitionDay.getTime() > Date.now()) howLongTilNextPic = dateDifference(Date.now(), transitionDay.getTime());
-	else howLongTilNextPic = dateDifference(Date.now(), nextTransitionDay.getTime());
+	if (Date.now() < eventDate.getTime()) {
+		howLongTilEvent = dateDifference(Date.now(), eventDate.getTime());
+	} else {
+		howLongTilEvent = [0, 0, 0, 0, 0, 0];
+	}
 
 	displayBackground();
 
@@ -122,7 +122,7 @@ function displayText() {
 	textAlign(RIGHT);
 
 	text(
-		`Until Next Picture:\n${howLongTilNextPic[2]} Days\n${howLongTilNextPic[3]} Hours\n${howLongTilNextPic[4]} Minutes\n${howLongTilNextPic[5]} Seconds\n`,
+		`Until ${eventName}:\n${howLongTilEvent[1]} Months\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
 		width - 10,
 		height / 30
 	);
