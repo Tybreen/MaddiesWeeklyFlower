@@ -33,8 +33,8 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 5, 16, 0, 0, 0);
-const nextTransitionDay = new Date(2024, 5, 23, 0, 0, 0);
+const transitionDay = new Date(2024, 5, 23, 0, 0, 0);
+const nextTransitionDay = new Date(2024, 5, 30, 0, 0, 0);
 
 const eventName = `Imagine Dragons`;
 const eventDate = new Date(2024, 7, 12, 20, 0, 0);
@@ -42,11 +42,11 @@ const eventDate = new Date(2024, 7, 12, 20, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I say "I miss you" a lot. I'm sorry about that. But... I really do! You're my best friend, I would love to spend all of my time with you if I could!!! I can't wait to see you! You are my everything! That's why I would do anything for you! My life is so much more brighter now that I have you in it! I love you so much!!!`;
+const quote = `I'm excited to see you! It doesn't matter when I last saw you, I'm always so excited to see you! I also miss you! You are the love of my life. My heart hurts when your not here. I love you! I hope that everyday I smother you with my love! ❤️‍🔥`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
+const photoStyle1 = "Vertical";
 const photoStyle2 = "Vertical";
 
 // DeBug:
@@ -55,8 +55,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 60.jpg");
-	image2 = loadImage("./Flowers/Week 61.jpg");
+	image1 = loadImage("./Flowers/Week 61.jpg");
+	image2 = loadImage("./Flowers/Week 62.jpeg");
 }
 
 function setup() {
