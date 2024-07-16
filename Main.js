@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-const lastPublishedToGitHub = "Last Published to GitHub: 7/2/24";
+const lastPublishedToGitHub = "Last Published to GitHub: 7/16/24";
 
 // Vars:
 
@@ -33,8 +33,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 6, 7, 0, 0, 0);
-const nextTransitionDay = new Date(2024, 6, 14, 0, 0, 0);
+const transitionDay = new Date(2024, 6, 21, 0, 0, 0);
 
 const eventName = `Imagine Dragons`;
 const eventDate = new Date(2024, 7, 12, 20, 0, 0);
@@ -42,12 +41,12 @@ const eventDate = new Date(2024, 7, 12, 20, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Hi my love. I'm here to tell you that I love you forever. You are such a big part of my life! I can't wait until you're a BIGGER part!!! You are amazing!!! XOXO`;
+const quote = `I hope you know I love you! If you don't... well, we have a problem. You need to know that I love you, with all of my heart!!! You are mine and I'm yours, forever!!! 🥰😍😘❤️`;
 
 // Horizontal : Vertical //
 //* Here
 const photoStyle1 = "Horizontal";
-const photoStyle2 = "Vertical";
+const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -55,8 +54,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 63.png");
-	image2 = loadImage("./Flowers/Week 64.jpg");
+	image1 = loadImage("./Flowers/Week 65.jpg");
+	image2 = loadImage("./Flowers/Week 66.jpg");
 }
 
 function setup() {
