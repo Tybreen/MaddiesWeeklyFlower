@@ -9,7 +9,7 @@ Given to Maddie: 4/21/23
 */
 
 //* Here
-const lastPublishedToGitHub = "Last Published to GitHub: 7/16/24";
+const lastPublishedToGitHub = "Last Published to GitHub: 7/26/24";
 
 // Vars:
 
@@ -33,7 +33,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 6, 21, 0, 0, 0);
+const transitionDay = new Date(2024, 6, 27, 0, 0, 0);
 
 const eventName = `Imagine Dragons`;
 const eventDate = new Date(2024, 7, 12, 20, 0, 0);
@@ -41,7 +41,7 @@ const eventDate = new Date(2024, 7, 12, 20, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I hope you know I love you! If you don't... well, we have a problem. You need to know that I love you, with all of my heart!!! You are mine and I'm yours, forever!!! 🥰😍😘❤️`;
+const quote = `First time doing Maddie's Weekly Flower on this computer! It's fun! I miss you! I always do. I hope you're having a pleasant day! I love you with every fiber in my body! I can't wait to see you again. ❤️`;
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 65.jpg");
-	image2 = loadImage("./Flowers/Week 66.jpg");
+	image1 = loadImage("./Flowers/Week 66.jpg");
+	image2 = loadImage("./Flowers/Week 67.jpg");
 }
 
 function setup() {
@@ -121,7 +121,7 @@ function displayText() {
 	textAlign(RIGHT);
 
 	text(
-		`Until ${eventName}:\n${howLongTilEvent[1]} Months\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
+		`Until ${eventName}:\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
 		width - 10,
 		height / 30
 	);
