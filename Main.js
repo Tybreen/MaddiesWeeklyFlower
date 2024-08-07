@@ -33,15 +33,15 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 7, 4, 0, 0, 0);
+const transitionDay = new Date(2024, 7, 11, 0, 0, 0);
 
 const eventName = `Imagine Dragons`;
-const eventDate = new Date(2024, 7, 12, 20, 0, 0);
+const eventDate = new Date(2024, 7, 12, 19, 30, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I love you so much! I miss you! I can't wait for Imagine Dragons! We will have to plan that out more. But I still can't wait! I love you more then the sun shines. Have a great week Maddie! ❤️`;
+const quote = `"In a garden of joy, my love is in bloom. With you, Maddie, happiness fills every room. Forever in your heart, I'll find my home." Yes, I'm not good with words so I used a little ChatGPT, but it's still from the heart! I love you so much! ❤️`;
 
 // Horizontal : Vertical //
 //* Here
@@ -54,8 +54,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 67.jpg");
-	image2 = loadImage("./Flowers/Week 68.jpg");
+	image1 = loadImage("./Flowers/Week 68.jpg");
+	image2 = loadImage("./Flowers/Week 69.jpg");
 }
 
 function setup() {
