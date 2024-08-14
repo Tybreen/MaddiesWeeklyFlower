@@ -8,9 +8,6 @@ Date created: 10/18/22
 Given to Maddie: 4/21/23
 */
 
-//* Here
-const lastPublishedToGitHub = "Last Published to GitHub: 7/30/24";
-
 // Vars:
 
 let image1;
@@ -33,20 +30,20 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 7, 11, 0, 0, 0);
+const transitionDay = new Date(2024, 7, 18, 0, 0, 0);
 
-const eventName = `Imagine Dragons`;
-const eventDate = new Date(2024, 7, 12, 19, 30, 0);
+const eventName = `Tyler's B-Day`;
+const eventDate = new Date(2024, 8, 22, 0, 0, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `"In a garden of joy, my love is in bloom. With you, Maddie, happiness fills every room. Forever in your heart, I'll find my home." Yes, I'm not good with words so I used a little ChatGPT, but it's still from the heart! I love you so much! ❤️`;
+const quote = `Week 69... Crazy! I love you so much! Thank you so much for going to Imagine Dragons with me! I'll never forget it! I hope you had just as much fun as I did! You're my best friend and I hope I show it. Love you cutie!`;
 
 // Horizontal : Vertical //
 //* Here
 const photoStyle1 = "Horizontal";
-const photoStyle2 = "Horizontal";
+const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
@@ -54,14 +51,12 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 68.jpg");
-	image2 = loadImage("./Flowers/Week 69.jpg");
+	image1 = loadImage("./Flowers/Week 69.jpg");
+	image2 = loadImage("./Flowers/Week 70.jpg");
 }
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-
-	console.log(lastPublishedToGitHub);
 
 	displayBackground();
 
@@ -121,7 +116,7 @@ function displayText() {
 	textAlign(RIGHT);
 
 	text(
-		`Until ${eventName}:\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
+		`Until ${eventName}:\n${howLongTilEvent[1]} Months\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
 		width - 10,
 		height / 30
 	);
