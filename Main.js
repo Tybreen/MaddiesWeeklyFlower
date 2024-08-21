@@ -30,7 +30,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 7, 18, 0, 0, 0);
+const transitionDay = new Date(2024, 7, 25, 0, 0, 0);
 
 const eventName = `Tyler's B-Day`;
 const eventDate = new Date(2024, 8, 22, 0, 0, 0);
@@ -38,11 +38,11 @@ const eventDate = new Date(2024, 8, 22, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Week 69... Crazy! I love you so much! Thank you so much for going to Imagine Dragons with me! I'll never forget it! I hope you had just as much fun as I did! You're my best friend and I hope I show it. Love you cutie!`;
+const quote = `I'm very proud of you! So brave that you decided to move out. Honestly, I really wouldn't want to do that. I know you'll have a ton of fun! You are a brave, beautiful, young woman! I know you can do the hard things. I love you so much! Keep trying out the hard things!`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
+const photoStyle1 = "Vertical";
 const photoStyle2 = "Vertical";
 
 // DeBug:
@@ -51,8 +51,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 69.jpg");
-	image2 = loadImage("./Flowers/Week 70.jpg");
+	image1 = loadImage("./Flowers/Week 70.jpg");
+	image2 = loadImage("./Flowers/Week 71.jpg");
 }
 
 function setup() {
@@ -116,7 +116,9 @@ function displayText() {
 	textAlign(RIGHT);
 
 	text(
-		`Until ${eventName}:\n${howLongTilEvent[1]} Months\n${howLongTilEvent[2]} Days\n${howLongTilEvent[3]} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
+		`Until ${eventName}: ${howLongTilEvent[1] !== 0 ? `\n${howLongTilEvent[1]} Months` : ``}\n${howLongTilEvent[2]} Days\n${
+			howLongTilEvent[3]
+		} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
 		width - 10,
 		height / 30
 	);
