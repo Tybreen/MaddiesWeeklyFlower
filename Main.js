@@ -30,7 +30,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 8, 1, 0, 0, 0);
+const transitionDay = new Date(2024, 8, 8, 0, 0, 0);
 
 const eventName = `Tyler's B-Day`;
 const eventDate = new Date(2024, 8, 22, 0, 0, 0);
@@ -38,20 +38,21 @@ const eventDate = new Date(2024, 8, 22, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I'm glad that you're trying to stay cool! It makes sense with how HOT you are that you'd overheat quickly. But seriously I hope you stay cool. I also hope that your folders are doing all right. It really wasn't intentional, I hope you know that. I hope you're OK with them. I know now how far not to go. I hope you're OK. I really really miss you. You're amazing. I love you so much!!!`;
+const quote = `I love you. You mean so much to me! I'm so happy I can talk to you about anything and everything! You are my best friend!!! I hope you enjoy me as much as I enjoy you! You brighten my life! I hope you aren't regretting anything, but if you are, I hope you know for next time. I love you! I hope you have an amazing week! Here's a flower, specially picked for you.`;
+
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Vertical";
-const photoStyle2 = "Horizontal";
+const photoStyle1 = "Horizontal";
+const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
-const imageSelect = false; // Default: false
+const imageSelect = 2; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 71.jpg");
-	image2 = loadImage("./Flowers/Week 72.jpg");
+	image1 = loadImage("./Flowers/Week 72.jpg");
+	image2 = loadImage("./Flowers/Week 73.jpg");
 }
 
 function setup() {
