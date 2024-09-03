@@ -47,7 +47,7 @@ const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
-const imageSelect = 2; // Default: false
+const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
