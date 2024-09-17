@@ -30,7 +30,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 8, 8, 0, 0, 0);
+const transitionDay = new Date(2024, 8, 22, 0, 0, 0);
 
 const eventName = `Tyler's B-Day`;
 const eventDate = new Date(2024, 8, 22, 0, 0, 0);
@@ -38,12 +38,12 @@ const eventDate = new Date(2024, 8, 22, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I love you. You mean so much to me! I'm so happy I can talk to you about anything and everything! You are my best friend!!! I hope you enjoy me as much as I enjoy you! You brighten my life! I hope you aren't regretting anything, but if you are, I hope you know for next time. I love you! I hope you have an amazing week! Here's a flower, specially picked for you.`;
+const quote = `Hi sweetheart. I'm sorry that I didn't update your website last week. I feel bad. I got busy. I don't want you to think that you're my highest priority. Because you are! You mean the world to me and I would drop anything if you needed me. I'm sorry I won't see you on my birthday. It really stinks. But hey, do you have a whole lifetime of birthdays to see me! I love you! You're Beautiful! Don't forget to say once in a while, like right now`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
-const photoStyle2 = "Vertical";
+const photoStyle1 = "Vertical";
+const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -51,8 +51,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 72.jpg");
-	image2 = loadImage("./Flowers/Week 73.jpg");
+	image1 = loadImage("./Flowers/Week 74.jpeg");
+	image2 = loadImage("./Flowers/Week 75.jpg");
 }
 
 function setup() {
