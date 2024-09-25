@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 8, 22, 0, 0, 0);
+const transitionDay = new Date(2024, 8, 29, 0, 0, 0);
 
 const eventName = `our anniversary!!!`;
 const eventDate = new Date(2024, 9, 22, 5, 30, 0);
@@ -41,12 +41,12 @@ const quote = `Hi sweetheart! I can't wait to see you again. Last time I saw you
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Vertical";
+const photoStyle1 = "Horizontal";
 const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
-const imageSelect = 2; // Default: false
+const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
