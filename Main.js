@@ -15,7 +15,6 @@ let image2;
 
 let currentImage = 0;
 
-let now = new Date();
 let howLongWeHaveBeenDating = [];
 let howLongTilEvent = [];
 
@@ -32,13 +31,13 @@ let i = 0;
 //* Here
 const transitionDay = new Date(2024, 8, 22, 0, 0, 0);
 
-const eventName = `Tyler's B-Day`;
-const eventDate = new Date(2024, 8, 22, 0, 0, 0);
+const eventName = `our anniversary!!!`;
+const eventDate = new Date(2024, 9, 22, 5, 30, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Hi sweetheart. I'm sorry that I didn't update your website last week. I feel bad. I got busy. I don't want you to think that you're my highest priority. Because you are! You mean the world to me and I would drop anything if you needed me. I'm sorry I won't see you on my birthday. It really stinks. But hey, do you have a whole lifetime of birthdays to see me! I love you! You're Beautiful! Don't forget to say once in a while, like right now`;
+const quote = `Hi sweetheart! I can't wait to see you again. Last time I saw you was amazing! I love you! You are absolutely beautiful! I melt every time I see you! I miss you. You are the girl for me! ❤️`;
 
 // Horizontal : Vertical //
 //* Here
@@ -47,12 +46,12 @@ const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
-const imageSelect = false; // Default: false
+const imageSelect = 2; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 74.jpeg");
-	image2 = loadImage("./Flowers/Week 75.jpg");
+	image1 = loadImage("./Flowers/Week 75.jpg");
+	image2 = loadImage("./Flowers/Week 76.jpg");
 }
 
 function setup() {
@@ -61,8 +60,6 @@ function setup() {
 	displayBackground();
 
 	setInterval(function () {
-		now = new Date();
-
 		displayImage();
 	}, 1000);
 }
