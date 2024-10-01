@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 8, 29, 0, 0, 0);
+const transitionDay = new Date(2024, 9, 6, 0, 0, 0);
 
 const eventName = `our anniversary!!!`;
 const eventDate = new Date(2024, 9, 22, 5, 30, 0);
@@ -37,7 +37,7 @@ const eventDate = new Date(2024, 9, 22, 5, 30, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Hi sweetheart! I can't wait to see you again. Last time I saw you was amazing! I love you! You are absolutely beautiful! I melt every time I see you! I miss you. You are the girl for me! ❤️`;
+const quote = `I love you so much, Sweetheart! I wish I could explain how much. I said that a lot, but you really have no clue how much you mean to me! I miss you every day. Every day that we're not together I'm sad that you're not here. Any day I get to hear your beautiful voice my heart jumps for joy because I love hearing your voice. Any day I get to hug and kiss you I just wish I could be in that moment forever and that I could always be with you forever. I hope you feel similar to how I feel. But the long and short of it is is, I love you with all my heart.`;
 
 // Horizontal : Vertical //
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 75.jpg");
-	image2 = loadImage("./Flowers/Week 76.jpg");
+	image1 = loadImage("./Flowers/Week 76.jpg");
+	image2 = loadImage("./Flowers/Week 77.jpg");
 }
 
 function setup() {
@@ -196,44 +196,49 @@ function splitSentence(str, chr) {
 	return out;
 }
 
-// not my code.
-function dateDifference(start, end) {
-	// Copy date objects so don't modify originals
-	var s = new Date(+start);
-	var e = new Date(+end);
-	var timeDiff, years, months, days, hours, minutes, seconds;
-
-	// Get estimate of year difference
-	years = e.getFullYear() - s.getFullYear();
-
-	// Add difference to start, if greater than end, remove one year
-	// Note start from restored start date as adding and subtracting years
-	// may not be symmetric
-	s.setFullYear(s.getFullYear() + years);
-	if (s > e) {
-		--years;
-		s = new Date(+start);
-		s.setFullYear(s.getFullYear() + years);
+function dateDifference(startDate, endDate) {
+	// Convert to Date objects if they are strings
+	if (!(startDate instanceof Date)) {
+		startDate = new Date(startDate); // Attempt to convert if it's a string
 	}
-	// Get estimate of months
-	months = e.getMonth() - s.getMonth();
-	months += months < 0 ? 12 : 0;
-
-	// Add difference to start, adjust if greater
-	s.setMonth(s.getMonth() + months);
-	if (s > e) {
-		--months;
-		s = new Date(+start);
-		s.setFullYear(s.getFullYear() + years);
-		s.setMonth(s.getMonth() + months);
+	if (!(endDate instanceof Date)) {
+		endDate = new Date(endDate); // Attempt to convert if it's a string
 	}
 
-	// Get remaining time difference, round to next full second
-	timeDiff = ((e - s + 999) / 1e3) | 0;
-	days = (timeDiff / 8.64e4) | 0;
-	hours = ((timeDiff % 8.64e4) / 3.6e3) | 0;
-	minutes = ((timeDiff % 3.6e3) / 6e1) | 0;
-	seconds = timeDiff % 6e1;
+	// Check if dates are valid
+	if (isNaN(startDate) || isNaN(endDate)) {
+		throw new Error("Invalid Date. Unable to calculate difference.");
+	}
+
+	let years = endDate.getFullYear() - startDate.getFullYear();
+	let months = endDate.getMonth() - startDate.getMonth();
+	let days = endDate.getDate() - startDate.getDate();
+	let hours = endDate.getHours() - startDate.getHours();
+	let minutes = endDate.getMinutes() - startDate.getMinutes();
+	let seconds = endDate.getSeconds() - startDate.getSeconds();
+
+	// Adjust negative values
+	if (seconds < 0) {
+		seconds += 60;
+		minutes--;
+	}
+	if (minutes < 0) {
+		minutes += 60;
+		hours--;
+	}
+	if (hours < 0) {
+		hours += 24;
+		days--;
+	}
+	if (days < 0) {
+		let previousMonth = new Date(endDate.getFullYear(), endDate.getMonth(), 0).getDate();
+		days += previousMonth;
+		months--;
+	}
+	if (months < 0) {
+		months += 12;
+		years--;
+	}
 
 	return [years, months, days, hours, minutes, seconds];
 }
