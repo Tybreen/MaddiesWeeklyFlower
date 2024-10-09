@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 9, 6, 0, 0, 0);
+const transitionDay = new Date(2024, 9, 13, 0, 0, 0);
 
 const eventName = `our anniversary!!!`;
 const eventDate = new Date(2024, 9, 22, 5, 30, 0);
@@ -37,7 +37,7 @@ const eventDate = new Date(2024, 9, 22, 5, 30, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `I love you so much, Sweetheart! I wish I could explain how much. I said that a lot, but you really have no clue how much you mean to me! I miss you every day. Every day that we're not together I'm sad that you're not here. Any day I get to hear your beautiful voice my heart jumps for joy because I love hearing your voice. Any day I get to hug and kiss you I just wish I could be in that moment forever and that I could always be with you forever. I hope you feel similar to how I feel. But the long and short of it is is, I love you with all my heart.`;
+const quote = `You are so hot! You have no idea how attractive you are to me, even when you're doing the simplest tasks! You are something else entirely that no other girl has. I love you so insanely much! I can't wait to be married to you and spend the rest of my life with you. Have fun this week and just know that you turn me on!... Even when you're not here. 🌑 -> 🌕`;
 
 // Horizontal : Vertical //
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 76.jpg");
-	image2 = loadImage("./Flowers/Week 77.jpg");
+	image1 = loadImage("./Flowers/Week 77.jpg");
+	image2 = loadImage("./Flowers/Week 78.jpg");
 }
 
 function setup() {
