@@ -29,20 +29,21 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 9, 13, 0, 0, 0);
+const transitionDay = new Date(2024, 9, 20, 0, 0, 0);
 
 const eventName = `our anniversary!!!`;
-const eventDate = new Date(2024, 9, 22, 5, 30, 0);
+const eventDate = new Date(2024, 9, 22, 17, 30, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `You are so hot! You have no idea how attractive you are to me, even when you're doing the simplest tasks! You are something else entirely that no other girl has. I love you so insanely much! I can't wait to be married to you and spend the rest of my life with you. Have fun this week and just know that you turn me on!... Even when you're not here. 🌑 -> 🌕`;
+const quote = `Well sweetheart, I am so absolutely excited! This week is the final week of being your one year boyfriend. Next week I'll be your two year boyfriend! I love you so much! You are so amazing! I have no idea how I am this lucky to have you! Don't forget your catch, I sure won't forget it.`;
+// Idea: It's been a pleasure to love you all these two years.
 
 // Horizontal : Vertical //
 //* Here
 const photoStyle1 = "Horizontal";
-const photoStyle2 = "Horizontal";
+const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
@@ -50,8 +51,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 77.jpg");
-	image2 = loadImage("./Flowers/Week 78.jpg");
+	image1 = loadImage("./Flowers/Week 78.jpg");
+	image2 = loadImage("./Flowers/Week 79.jpeg");
 }
 
 function setup() {
