@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 9, 20, 0, 0, 0);
+const transitionDay = new Date(2024, 9, 27, 0, 0, 0);
 
 const eventName = `our anniversary!!!`;
 const eventDate = new Date(2024, 9, 22, 17, 30, 0);
@@ -37,12 +37,11 @@ const eventDate = new Date(2024, 9, 22, 17, 30, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Well sweetheart, I am so absolutely excited! This week is the final week of being your one year boyfriend. Next week I'll be your two year boyfriend! I love you so much! You are so amazing! I have no idea how I am this lucky to have you! Don't forget your catch, I sure won't forget it.`;
-// Idea: It's been a pleasure to love you all these two years.
+const quote = `Here's my favorite flower in the entire world!..... Depending on when you read this, you're either counting down to our two year exactly, or it's already been two years! Either way it's been a pleasure to love you all these two years! Although it's only been two years it feels like it's been a lifetime, imagine what a lifetime will feel like! I know it will be wonderful! I hope you have a wonderful year with me! If I ever mess up or hurt you in anyway, I want you to tell me because we can work through it. We've worked through worse! You are incredible! I love you always! I love you with all my heart!`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
+const photoStyle1 = "Vertical";
 const photoStyle2 = "Vertical";
 
 // DeBug:
@@ -51,7 +50,7 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 78.jpg");
+	image1 = loadImage("./Flowers/Week 80.jpeg");
 	image2 = loadImage("./Flowers/Week 79.jpeg");
 }
 
