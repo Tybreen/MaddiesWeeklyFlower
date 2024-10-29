@@ -29,15 +29,15 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 9, 27, 0, 0, 0);
+const transitionDay = new Date(2024, 10, 3, 0, 0, 0);
 
-const eventName = `our anniversary!!!`;
-const eventDate = new Date(2024, 9, 22, 17, 30, 0);
+const eventName = `your birthday!!!`;
+const eventDate = new Date(2024, 10, 7, 0, 0, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Here's my favorite flower in the entire world!..... Depending on when you read this, you're either counting down to our two year exactly, or it's already been two years! Either way it's been a pleasure to love you all these two years! Although it's only been two years it feels like it's been a lifetime, imagine what a lifetime will feel like! I know it will be wonderful! I hope you have a wonderful year with me! If I ever mess up or hurt you in anyway, I want you to tell me because we can work through it. We've worked through worse! You are incredible! I love you always! I love you with all my heart!`;
+const quote = `I love you so much! I'm so happy I get to be your boyfriend! Only in a couple days is your birthday and I sure did get you a great gift! I really hope you like it. I put a lot of work and thought into it! No matter how good your gift is, it will still never show how much I love you, nothing will ever do THAT!`;
 
 // Horizontal : Vertical //
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 80.jpeg");
-	image2 = loadImage("./Flowers/Week 79.jpeg");
+	image1 = loadImage("./Flowers/Week 79.jpeg");
+	image2 = loadImage("./Flowers/Week 81.jpg");
 }
 
 function setup() {
