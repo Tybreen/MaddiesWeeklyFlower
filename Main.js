@@ -29,15 +29,15 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 10, 10, 0, 0, 0);
+const transitionDay = new Date(2024, 10, 17, 0, 0, 0);
 
-const eventName = `your birthday!!!`;
-const eventDate = new Date(2024, 10, 7, 0, 0, 0);
+const eventName = `Christmas`;
+const eventDate = new Date(2024, 11, 25, 0, 0, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Wow! Depending on when you read this, you're either about to turn 20 or you're already 20. So hot! But really it is such an accomplishment to turn 20. You've graduated high school as Salutatorian, you graduated college and now you're already on another degree for college all before you turn 20. I love you with all my heart! There's no doubt in my mind that you are a hard worker! Don't ever think for a second I won't work just as hard for you! Happy birthday, Lover!`;
+const quote = `Hi! You've mentioned recently that I haven't been respecting you. I'd love to know specifically where I haven't been respecting you. I'm so sorry. I never want you to feel that way. I always want you to feel like a princess, royalty. I love you and I never want to hurt you. You mean too much to me. If I ever hurt you in even a tiniest way, please tell me. I love you. I hope you're having a great week. I miss you.`;
 
 // Horizontal : Vertical //
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 81.jpg");
-	image2 = loadImage("./Flowers/Week 82.jpg");
+	image1 = loadImage("./Flowers/Week 82.jpg");
+	image2 = loadImage("./Flowers/Week 83.jpg");
 }
 
 function setup() {
