@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 10, 17, 0, 0, 0);
+const transitionDay = new Date(2024, 10, 24, 0, 0, 0);
 
 const eventName = `Christmas`;
 const eventDate = new Date(2024, 11, 25, 0, 0, 0);
@@ -37,12 +37,12 @@ const eventDate = new Date(2024, 11, 25, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Hi! You've mentioned recently that I haven't been respecting you. I'd love to know specifically where I haven't been respecting you. I'm so sorry. I never want you to feel that way. I always want you to feel like a princess, royalty. I love you and I never want to hurt you. You mean too much to me. If I ever hurt you in even a tiniest way, please tell me. I love you. I hope you're having a great week. I miss you.`;
+const quote = `Hi My Love! I hope I'm enough for you. I know I'm not perfect, but I'm trying to be for you! I'd love an answer to this question. So let me know, I guess. I. Love. You. With. All. My. Heart!!!`;
 
 // Horizontal : Vertical //
 //* Here
 const photoStyle1 = "Vertical";
-const photoStyle2 = "Vertical";
+const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 82.jpg");
-	image2 = loadImage("./Flowers/Week 83.jpg");
+	image1 = loadImage("./Flowers/Week 83.jpg");
+	image2 = loadImage("./Flowers/Week 84.jpg");
 }
 
 function setup() {
