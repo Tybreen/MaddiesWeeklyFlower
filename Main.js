@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 10, 24, 0, 0, 0);
+const transitionDay = new Date(2024, 11, 1, 0, 0, 0);
 
 const eventName = `Christmas`;
 const eventDate = new Date(2024, 11, 25, 0, 0, 0);
@@ -37,12 +37,12 @@ const eventDate = new Date(2024, 11, 25, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `Hi My Love! I hope I'm enough for you. I know I'm not perfect, but I'm trying to be for you! I'd love an answer to this question. So let me know, I guess. I. Love. You. With. All. My. Heart!!!`;
+const quote = `I love you so much! I really do see how hard you work for our relationship! I appreciate all you do for me! You make me so happy! Anytime I see you or read something you wrote, it makes me smile! You're crazy, but I'm also crazy for you too! I love you. ❤️💋`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Vertical";
-const photoStyle2 = "Horizontal";
+const photoStyle1 = "Horizontal";
+const photoStyle2 = "Vertical";
 
 // DeBug:
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 83.jpg");
-	image2 = loadImage("./Flowers/Week 84.jpg");
+	image1 = loadImage("./Flowers/Week 84.jpg");
+	image2 = loadImage("./Flowers/Week 85.jpg");
 }
 
 function setup() {
