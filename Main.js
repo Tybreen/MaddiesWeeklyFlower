@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 11, 15, 0, 0, 0);
+const transitionDay = new Date(2024, 11, 22, 0, 0, 0);
 
 const eventName = `Christmas`;
 const eventDate = new Date(2024, 11, 25, 0, 0, 0);
@@ -37,12 +37,12 @@ const eventDate = new Date(2024, 11, 25, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `You are an amazing dancer!!! You have so many great talents! You're a great learner, you're a great dancer, you're a great singer, and one of my favorites, you're a great kisser! 💋 Don't forget how talented you are! Although, we both know I'm the better dancer. 😉♥️`;
+const quote = `My Love, you are such a beautiful young woman! You are so attractive! I wish I was with you all the time, for the sweet and sus parts! I love you SO much! 💋`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
-const photoStyle2 = "Vertical";
+const photoStyle1 = "Vertical";
+const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 86.jpg");
-	image2 = loadImage("./Flowers/Week 87.jpg");
+	image1 = loadImage("./Flowers/Week 87.jpg");
+	image2 = loadImage("./Flowers/Week 88.jpg");
 }
 
 function setup() {
