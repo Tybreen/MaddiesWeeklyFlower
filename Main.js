@@ -29,19 +29,19 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2024, 11, 22, 0, 0, 0);
+const transitionDay = new Date(2024, 11, 29, 0, 0, 0);
 
-const eventName = `Christmas`;
-const eventDate = new Date(2024, 11, 25, 0, 0, 0);
+const eventName = `Valentine's`;
+const eventDate = new Date(2025, 1, 14, 0, 0, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `My Love, you are such a beautiful young woman! You are so attractive! I wish I was with you all the time, for the sweet and sus parts! I love you SO much! 💋`;
+const quote = `I love you! And that's all in need to say this week.`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Vertical";
+const photoStyle1 = "Horizontal";
 const photoStyle2 = "Horizontal";
 
 // DeBug:
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 87.jpg");
-	image2 = loadImage("./Flowers/Week 88.jpg");
+	image1 = loadImage("./Flowers/Week 88.jpg");
+	image2 = loadImage("./Flowers/Week 89.jpg");
 }
 
 function setup() {
