@@ -29,7 +29,7 @@ let i = 0;
 / Year, Month, Day, Hour, Minute, Seconds /
 */
 //* Here
-const transitionDay = new Date(2025, 0, 26, 0, 0, 0);
+const transitionDay = new Date(2025, 1, 2, 0, 0, 0);
 
 const eventName = `Valentine's`;
 const eventDate = new Date(2025, 1, 14, 0, 0, 0);
@@ -37,12 +37,12 @@ const eventDate = new Date(2025, 1, 14, 0, 0, 0);
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
 
 //* Here
-const quote = `HI! I'm so in love with you!!! I hope we'll always keep fighting for each other. Feel better Maddie.`;
+const quote = `I love spending time with you! I love the little things you do! The way you smile, the way you laugh, the way you hiccup!!! 🤣 Everything you do is cute! I just hope I can show you all little cute I have.`;
 
 // Horizontal : Vertical //
 //* Here
-const photoStyle1 = "Horizontal";
-const photoStyle2 = "Vertical";
+const photoStyle1 = "Vertical";
+const photoStyle2 = "Horizontal";
 
 // DeBug:
 //* Here
@@ -50,8 +50,8 @@ const imageSelect = false; // Default: false
 
 function preload() {
 	//* Here
-	image1 = loadImage("./Flowers/Week 92.jpg");
-	image2 = loadImage("./Flowers/Week 93.png");
+	image1 = loadImage("./Flowers/Week 93.png");
+	image2 = loadImage("./Flowers/Week 94.jpeg");
 }
 
 function setup() {
