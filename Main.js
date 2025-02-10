@@ -31,13 +31,14 @@ let i = 0;
 //* Here
 const transitionDay = new Date(2025, 1, 9, 0, 0, 0);
 
-const eventName = `Valentine's`;
-const eventDate = new Date(2025, 1, 14, 0, 0, 0);
+// const eventName = `Valentine's`;
+// const eventDate = new Date(2025, 1, 14, 0, 0, 0);
 
 const dayWeStartedDating = new Date(2022, 9, 22, 17, 30, 0);
+const dayWeStoppedDating = new Date(2024, 1, 7, 18, 30, 0);
 
 //* Here
-const quote = `I love you! Don't forget that.`;
+const quote = `This is the last flower that this website will hold. I hope that you enjoyed the website even more than I have. Every quote and every flower I picked out, was special for you.`;
 
 // Horizontal : Vertical //
 //* Here
@@ -86,13 +87,15 @@ function mousePressed() {
 }
 
 function displayText() {
-	howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
+	// howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), Date.now());
 
-	if (Date.now() < eventDate.getTime()) {
-		howLongTilEvent = dateDifference(Date.now(), eventDate.getTime());
-	} else {
-		howLongTilEvent = [0, 0, 0, 0, 0, 0];
-	}
+	// if (Date.now() < eventDate.getTime()) {
+	// 	howLongTilEvent = dateDifference(Date.now(), eventDate.getTime());
+	// } else {
+	// 	howLongTilEvent = [0, 0, 0, 0, 0, 0];
+	// }
+
+	howLongWeHaveBeenDating = dateDifference(dayWeStartedDating.getTime(), dayWeStoppedDating.getTime());
 
 	displayBackground();
 
@@ -103,7 +106,7 @@ function displayText() {
 	else fill(0);
 
 	text(
-		`We've been dating:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`,
+		`We dated:\n${howLongWeHaveBeenDating[0]} Years\n${howLongWeHaveBeenDating[1]} Months\n${howLongWeHaveBeenDating[2]} Days\n${howLongWeHaveBeenDating[3]} Hours\n${howLongWeHaveBeenDating[4]} Minutes\n${howLongWeHaveBeenDating[5]} Seconds\n`,
 		10,
 		height / 30
 	);
@@ -112,16 +115,16 @@ function displayText() {
 
 	textAlign(RIGHT);
 
-	text(
-		`Until ${eventName}: ${howLongTilEvent[1] !== 0 ? `\n${howLongTilEvent[1]} Months` : ``}\n${howLongTilEvent[2]} Days\n${
-			howLongTilEvent[3]
-		} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
-		width - 10,
-		height / 30
-	);
+	// text(
+	// 	`Until ${eventName}: ${howLongTilEvent[1] !== 0 ? `\n${howLongTilEvent[1]} Months` : ``}\n${howLongTilEvent[2]} Days\n${
+	// 		howLongTilEvent[3]
+	// 	} Hours\n${howLongTilEvent[4]} Minutes\n${howLongTilEvent[5]} Seconds\n`,
+	// 	width - 10,
+	// 	height / 30
+	// );
 
 	text("To Maddie", width - 10, height - height / 20);
-	text("Love, Tyler", width - 10, height - height / 60);
+	text("From Tyler", width - 10, height - height / 60);
 }
 
 function displayBackground() {
